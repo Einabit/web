@@ -26,9 +26,6 @@
           <a title="Quién nos avala?" href="clients.html">Clientes</a>
         </div>
         <div>
-          <a title="Cuánto cuesta?" href="prices.html">Precios</a>
-        </div>
-        <div>
           <a title="Cómo funciona?" href="tools.html">Herramientas</a>
         </div>
         <div>
