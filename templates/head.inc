@@ -10,14 +10,11 @@
   <body>
     <section class="header">
       <logo>
-        <img src="img/Logo_Einabit_Color.png" />
+        <img src="img/Logo_Einabit_Negativo.png" />
       </logo>
       <nav>
         <div>
           <a title="Qué hacemos?" href="index.html">Inicio</a>
-        </div>
-        <div>
-          <a title="Quieres hacer proyectos IoT?" href="develop.html">Desarrollo</a>
         </div>
         <div>
           <a title="Quieres aumentar la eficiencia?" href="industry.html">Industria 4.0</a>
