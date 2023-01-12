@@ -92,6 +92,14 @@
           "text4": "Desarrollo: 3 semanas.",
           "text5": "Mantenimiento mensual: 200€."
         }
+      },
+      "tools": {
+        "mainHeader": "Herramientas",
+        "mainSub": "Ponemos a tu disposición herramientas gratuitas y de código abierto.",
+        "sandbox": "Entorno de pruebas para mockear la API de Einabit.",
+        "clientjs": "Librería para conectarse a los servicios de Einabit para projectos de Nodejs.",
+        "clientpy": "Librería para conectarse a los servicios de Einabit para projectos de Python.",
+        "clientjava": "Librería para conectarse a los servicios de Einabit para projectos de Java."
       }
     }
   },
@@ -188,6 +196,14 @@
           "text4": "Development: 3 semanas.",
           "text5": "Monthly maintainance: 200€."
         }
+      },
+      "tools": {
+        "mainHeader": "Tools",
+        "mainSub": "These tools are available as a free open source.",
+        "sandbox": "Test environment to test Einabit API.",
+        "clientjs": "Library to connect with Einabit services with Nodejs.",
+        "clientpy": "Library to connect with Einabit services with Python.",
+        "clientjava": "Library to connect with Einabit services with Java."
       }
     }
   }
