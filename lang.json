@@ -64,6 +64,34 @@
           "title": "Arquitecto Cloud y SRE",
           "exp": "10 años de experiencia. Experto en Serverless y automatización de procesos, seguridad, resiliencia, disponibilidad y escalabilidad."
         }
+      },
+      "clients": {
+        "mainHeader": "Nuestros clientes",
+        "advice": "Debido a la LOPD los nombres que se muestran aquí no son reales.",
+        "client1": {
+          "name": "Helioplast S.L.",
+          "text1": "En colaboración con CougarView S.L.",
+          "text2": "Descripción: Fábrica de plasticos con una plantilla de 64 trabajadores y 12 líneas de producción. Se llevó a cabo la instalación de fotocélulas para el conteo y señales parada.",
+          "text3": "Instalación: 4300€.",
+          "text4": "Desarrollo: 3 semanas.",
+          "text5": "Mantenimiento mensual: 150€."
+        },
+        "client2": {
+          "name": "Levosfera Paterna",
+          "text1": "Desarrollo propio.",
+          "text2": "Descripción: Instalación de sensores para detectar partículas en suspensión cerca de una zona industrial.",
+          "text3": "Instalación: 6900€.",
+          "text4": "Desarrollo: 6 semanas.",
+          "text5": "Mantenimiento mensual: 100€."
+        },
+        "client3": {
+          "name": "Agrobeans Murcia",
+          "text1": "En colaboración con KressySoft S.L.",
+          "text2": "Descripción: Centro de procesamiento para productos hortofrutícolas con 34 trabajadores y 6 líneas de producción. Instalación de sensores para el control de la producción, incentivos a la producción, gestión de incidencias e informes.",
+          "text3": "Instalación: 3400€.",
+          "text4": "Desarrollo: 3 semanas.",
+          "text5": "Mantenimiento mensual: 200€."
+        }
       }
     }
   },
@@ -72,7 +100,7 @@
     "content": {
       "index": {
         "mainHeader": "Another twist to the \"<i>Internet Of Things</i>\"",
-        "mainSub": "Einabit its a company that allows to easily develop your IoT projects. We install sensors, retrieve signals and store all data so you only have to care about the development of the solution",
+        "mainSub": "Einabit is a company that allows to easily develop your IoT projects. We install sensors, retrieve signals and store all data so you only have to care about the development of the solution",
         "header1": "A product for developers",
         "p1": "Unlike other companies, we offer a product compatible with modern environments and tools. Our API is hosted in the best data centers that ensures high availability.",
         "header2": "We digitalize your business",
@@ -131,6 +159,34 @@
         "adri": {
           "title": "Cloud Architect and SRE",
           "exp": "10 years of experience. Expert in serverless, process automatization, security, service resilience, availability and scalability."
+        }
+      },
+      "clients": {
+        "mainHeader": "Our clients",
+        "advice": "Due to the GDPR policy the data below is not real.",
+        "client1": {
+          "name": "Helioplast S.L.",
+          "text1": "In collaboration with CougarView S.L.",
+          "text2": "Description: Plastic facility with 64 workers and 12 production lines. Unit count, stoppage and auto signals are collected.",
+          "text3": "Installation: 4300€.",
+          "text4": "Development: 3 semanas.",
+          "text5": "Monthly maintainance: 150€."
+        },
+        "client2": {
+          "name": "Levosfera Paterna",
+          "text1": "Full development.",
+          "text2": "Description: Installation of sensors to detect atmosphere particles nearby an industrial facility.",
+          "text3": "Installation: 6900€.",
+          "text4": "Development: 6 semanas.",
+          "text5": "Monthly maintainance: 100€."
+        },
+        "client3": {
+          "name": "Agrobeans Murcia",
+          "text1": "In collaboration with KressySoft S.L.",
+          "text2": "Description: Horticultural processing center with 34 workers and 6 production lines. Installation of sensors and production monitoring to elaborate production incentives, issue handling and reports.",
+          "text3": "Installation: 3400€.",
+          "text4": "Development: 3 semanas.",
+          "text5": "Monthly maintainance: 200€."
         }
       }
     }
