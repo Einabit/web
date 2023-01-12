@@ -23,9 +23,11 @@
         <div>
           <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html"><%=data.content.menu.index.value%></a>
         </div>
-        <div>
-          <a title="<%=data.content.menu.industry.title%>" href="industry.<%=data.lang%>.html"><%=data.content.menu.industry.value%></a>
-        </div>
+        <% if (data.lang === "es") { %>
+          <div>
+            <a title="<%=data.content.menu.industry.title%>" href="industry.<%=data.lang%>.html"><%=data.content.menu.industry.value%></a>
+          </div>
+        <% } %>
         <div>
           <a title="<%=data.content.menu.clients.title%>" href="clients.<%=data.lang%>.html"><%=data.content.menu.clients.value%></a>
         </div>
