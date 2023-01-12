@@ -1,5 +1,7 @@
-<%#autoweb:name about.html%>
-<%-include("head.inc")%>
+<%#autoweb:require lang.json%>
+<%#autoweb:each %>
+<%#autoweb:name about.$lang.html%>
+<%-include("head.inc", data)%>
 <section>
   <h1>Empresa</h1>
 </section>

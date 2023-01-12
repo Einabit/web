@@ -1,5 +1,7 @@
-<%#autoweb:name industry.html%>
-<%-include("head.inc")%>
+<%#autoweb:require lang.json%>
+<%#autoweb:each %>
+<%#autoweb:name industry.$lang.html%>
+<%-include("head.inc", data)%>
 <section>
   <h1>Facilitamos el desarrollo de la Industria 4.0</h1>
   <!-- <video autoplay controls> -->

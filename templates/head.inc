@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Einabit, integración con sensores, industria 4.0</title>
+    <title><%=data.content.head.title%></title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="icon" href="img/Tuerca_Color.png">
@@ -14,19 +14,19 @@
       </logo>
       <nav>
         <div>
-          <a title="Qué hacemos?" href="index.html">Inicio</a>
+          <a title="<%=data.content.menu.index.title%>" href="index.html"><%=data.content.menu.index.value%></a>
         </div>
         <div>
-          <a title="Quieres aumentar la eficiencia?" href="industry.html">Industria 4.0</a>
+          <a title="<%=data.content.menu.industry.title%>" href="industry.html"><%=data.content.menu.industry.value%></a>
         </div>
         <div>
-          <a title="Quién nos avala?" href="clients.html">Clientes</a>
+          <a title="<%=data.content.menu.clients.title%>" href="clients.html"><%=data.content.menu.clients.value%></a>
         </div>
         <div>
-          <a title="Cómo funciona?" href="tools.html">Herramientas</a>
+          <a title="<%=data.content.menu.tools.title%>" href="tools.html"><%=data.content.menu.tools.value%></a>
         </div>
         <div>
-          <a title="Quiénes sois?" href="about.html">Empresa</a>
+          <a title="<%=data.content.menu.about.title%>" href="about.html"><%=data.content.menu.about.value%></a>
         </div>
       </nav>
     </section>

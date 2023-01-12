@@ -1,5 +1,7 @@
-<%#autoweb:name tools.html%>
-<%-include("head.inc")%>
+<%#autoweb:require lang.json%>
+<%#autoweb:each %>
+<%#autoweb:name tools.$lang.html%>
+<%-include("head.inc", data)%>
 <section>
   <h1>Herramientas</h1>
   <p><a href="https://github.com/orgs/Einabit/repositories">Einabit - Github</a></p>

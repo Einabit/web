@@ -1,5 +1,7 @@
-<%#autoweb:name clients.html%>
-<%-include("head.inc")%>
+<%#autoweb:require lang.json%>
+<%#autoweb:each %>
+<%#autoweb:name clients.$lang.html%>
+<%-include("head.inc", data)%>
 <section>
   <h1>Nuestros clientes</h1>
   <p>Debido a la LOPD los nombres que se muestran aquí no son reales.</p>

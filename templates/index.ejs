@@ -1,25 +1,26 @@
-<%#autoweb:name index.html%>
-<%-include("head.inc")%>
+<%#autoweb:require lang.json%>
+<%#autoweb:each %>
+<%#autoweb:name index.$lang.html%>
+<%-include("head.inc", data)%>
 <section>
-  <h1>Una vuelta de tuerca al "<i>internet de las cosas</i>"</h1>
-  <h3>Einabit es una empresa que hace realidad tus proyectos de IoT a gran escala. Instalamos sensores, recogemos y almacenamos los datos para que solo tengas que preocuparte de desarrollar soluciones para tus clientes.</h3>
+  <h1><%-data.content.index.mainHeader%></h1>
+  <h3><%-data.content.index.mainSub%></h3>
 </section>
 <section>
-  <h2>Un producto para desarrolladores</h2>
-  <p>A diferencia de otras empresas, nosotros ofrecemos un producto compatible con entornos de desarrollo modernos. Nuestra pasarela de datos está alojada en servidores de alta disponibilidad y acorde con los últimos estándares.</p>
+  <h2><%-data.content.index.header1%></h2>
+  <p><%-data.content.index.p1%></p>
 </section>
 <section>
-  <h2>Digitalizamos tu negocio</h2>
-  <p>Nuestro sistema es compatible con cualquier sensor, ya sea relacionado con industria de manufactura, transporte, meteorología, salud, seguridad y perimetraje.</p>
+  <h2><%-data.content.index.header2%></h2>
+  <p><%-data.content.index.p2%></p>
 </section>
 <section>
-  <h2>Nos encargamos de todo</h2>
-  <p>Nuestro equipo se encarga íntegramente del proceso de instalación. También te asesoraremos en función de las necesidades del cliente.</p>
+  <h2><%-data.content.index.header3%></h2>
+  <p><%-data.content.index.p3%></p>
 </section>
 <section>
-  <h2>Te ayudamos a llegar más lejos</h2>
-  <p>Sabemos mejor que nadie lo complicado que son los proyectos de software. Si a todo esto añadimos tener que mantener equipos electrónicos la complejidad de nuestro proyecto se incrementa exponencialmente.</p>
-
-  <p>El mundo IoT requiere de conocimientos de hardware, electrónica y otra serie de aptitudes relacionadas con el mundo de las instalaciones industriales. Es por eso que hasta ahora solo empresas con abundantes recursos pueden abordar la transformación digital y esto es una grave desventaja para las PYMEs.</p>
+  <h2><%-data.content.index.header4%></h2>
+  <p><%-data.content.index.p4a%></p>
+  <p><%-data.content.index.p4b%></p>
 </section>
 <%-include("foot.inc")%>
