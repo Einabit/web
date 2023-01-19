@@ -86,7 +86,7 @@
         "client3": {
           "name": "Transporte de alimentos",
           "text1": "Desarrollo propio.",
-          "text2": "Descripción: Desarrollo de dispositivo de monitorización autónomo para contenedores de carga, fundamentalmente Reefer. El dispositivo es totalmente autónomo y se introduce dentro del contenedor para monitorizar la temperatura y la puerta. La empresa aseguradora recibe los datos siempre que hay conexión disponible a través de redes móviles.",
+          "text2": "Descripción: Desarrollo de dispositivo de monitorización autónomo para contenedores de carga, fundamentalmente Reefer. El dispositivo es totalmente autónomo y se introduce dentro del contenedor para monitorizar la temperatura y la puerta. El dispositivo almacena la información y la envia siempre que hay conexión disponible a través de redes móviles. La empresa aseguradora recibe eventualmente todos los datos.",
           "text3": "Instalación: -.",
           "text4": "Desarrollo: 5 semanas.",
           "text5": "Mantenimiento mensual: -."
@@ -179,36 +179,36 @@
       "projects": {
         "mainHeader": "Our projects",
         "client1": {
-          "name": "Helioplast S.L.",
-          "text1": "In collaboration with CougarView S.L.",
-          "text2": "Description: Plastic facility with 64 workers and 12 production lines. Unit count, stoppage and auto signals are collected.",
-          "text3": "Installation: 4300€.",
+          "name": "Plastic manufacturing",
+          "text1": "In collaboration with an external outsourcing company",
+          "text2": "Description: Plastic facility with 64 workers and 12 production lines. Unit count, stoppage and auto signals are collected. <br/><br/>Our partner was responsible for implementing the program interfaces by using our services to retrieve production data. This program included reports, tickets, charts, and production linked incentives.",
+          "text3": "Installation: 7300€.",
           "text4": "Development: 3 semanas.",
-          "text5": "Monthly maintainance: 150€."
+          "text5": "Monthly maintainance: 550€."
         },
         "client2": {
-          "name": "Levosfera Paterna",
+          "name": "Air quality",
           "text1": "Full development.",
-          "text2": "Description: Installation of sensors to detect atmosphere particles nearby an industrial facility.",
+          "text2": "Description: Installation of sensors to detect atmosphere particles nearby an industrial facility.<br/><br/>Application development that elaborates monthly reports, also makes automatically issues warnings when pollution reaches critical level.",
           "text3": "Installation: 6900€.",
           "text4": "Development: 6 semanas.",
           "text5": "Monthly maintainance: 100€."
         },
         "client3": {
-          "name": "Agrobeans Murcia",
-          "text1": "In collaboration with KressySoft S.L.",
-          "text2": "Description: Horticultural processing center with 34 workers and 6 production lines. Installation of sensors and production monitoring to elaborate production incentives, issue handling and reports.",
-          "text3": "Installation: 3400€.",
+          "name": "Long haul monitoring",
+          "text1": "Own development",
+          "text2": "Description: Development of an autonomous device able to monitor temperature of a reefer container, also track door opening. This device stores data and releases it when mobile networks are available. Insurance company will eventually receive all data.",
+          "text3": "Installation: -.",
           "text4": "Development: 3 semanas.",
-          "text5": "Monthly maintainance: 200€."
+          "text5": "Monthly maintainance: -."
         },
         "client4": {
-          "name": "Agrobeans Murcia",
-          "text1": "In collaboration with KressySoft S.L.",
-          "text2": "Description: Horticultural processing center with 34 workers and 6 production lines. Installation of sensors and production monitoring to elaborate production incentives, issue handling and reports.",
-          "text3": "Installation: 3400€.",
-          "text4": "Development: 3 semanas.",
-          "text5": "Monthly maintainance: 200€."
+          "name": "Handling and packaging of horticultural products",
+          "text1": "In collaboration with an external outsourcing company",
+          "text2": "Description: Horticultural processing center with 34 workers and 6 production lines. Installation of sensors and production monitoring to elaborate production incentives, issue handling and reports.<br/><br/>Our partner was responsible of the development of the platform used by the client using our APIs to integrate with the sensors and signals.",
+          "text3": "Installation: 7400€.",
+          "text4": "Development: 6 semanas.",
+          "text5": "Monthly maintainance: 400€."
         }
       },
       "tools": {
