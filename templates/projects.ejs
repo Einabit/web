@@ -1,0 +1,40 @@
+<%#autoweb:require lang.json%>
+<%#autoweb:each %>
+<%#autoweb:name projects.$lang.html%>
+<%-include("head.inc", data)%>
+<section>
+  <h1><%=data.content.projects.mainHeader%></h1>
+</section>
+<section>
+  <p><strong><%=data.content.projects.client1.name%></strong></p>
+  <p><%=data.content.projects.client1.text1%></p>
+  <p><%-data.content.projects.client1.text2%></p>
+  <p><%=data.content.projects.client1.text3%></p>
+  <p><%=data.content.projects.client1.text4%></p>
+  <p><%=data.content.projects.client1.text5%></p>
+</section>
+<section>
+  <p><strong><%=data.content.projects.client2.name%></strong></p>
+  <p><%=data.content.projects.client2.text1%></p>
+  <p><%-data.content.projects.client1.text2%></p>
+  <p><%=data.content.projects.client2.text3%></p>
+  <p><%=data.content.projects.client2.text4%></p>
+  <p><%=data.content.projects.client2.text5%></p>
+</section>
+<section>
+  <p><strong><%=data.content.projects.client3.name%></strong></p>
+  <p><%=data.content.projects.client3.text1%></p>
+  <p><%-data.content.projects.client1.text2%></p>
+  <p><%=data.content.projects.client3.text3%></p>
+  <p><%=data.content.projects.client3.text4%></p>
+  <p><%=data.content.projects.client3.text5%></p>
+</section>
+<section>
+  <p><strong><%=data.content.projects.client4.name%></strong></p>
+  <p><%=data.content.projects.client4.text1%></p>
+  <p><%-data.content.projects.client4.text2%></p>
+  <p><%=data.content.projects.client4.text3%></p>
+  <p><%=data.content.projects.client4.text4%></p>
+  <p><%=data.content.projects.client4.text5%></p>
+</section>
+<%-include("foot.inc")%>

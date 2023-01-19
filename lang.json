@@ -27,8 +27,8 @@
           "value": "Industria 4.0",
           "title": "Quieres aumentar la eficiencia?"
         },
-        "clients": {
-          "value": "Clientes",
+        "projects": {
+          "value": "Proyectos",
           "title": "Quién nos avala?"
         },
         "tools": {
@@ -65,32 +65,39 @@
           "exp": "10 años de experiencia. Experto en Serverless y automatización de procesos, seguridad, resiliencia, disponibilidad y escalabilidad."
         }
       },
-      "clients": {
-        "mainHeader": "Nuestros clientes",
-        "advice": "Debido a la LOPD los nombres que se muestran aquí no son reales.",
+      "projects": {
+        "mainHeader": "Proyectos desarrollados",
         "client1": {
-          "name": "Helioplast S.L.",
-          "text1": "En colaboración con CougarView S.L.",
-          "text2": "Descripción: Fábrica de plasticos con una plantilla de 64 trabajadores y 12 líneas de producción. Se llevó a cabo la instalación de fotocélulas para el conteo y señales parada.",
-          "text3": "Instalación: 4300€.",
+          "name": "Fábrica de plásticos",
+          "text1": "En colaboración con una empresa de desarrollo",
+          "text2": "Descripción: Fábrica de plasticos con una plantilla de 64 trabajadores y 12 líneas de producción. Se llevó a cabo la instalación de fotocélulas para el conteo y señales parada.<br/><br/>Nuestro partner se encargó de hacer el desarrollo de las pantallas utilizando nuestros servicios para obtener toda la información necesaria y así desarrollar el programa utilizado por los operarios de la nave. También del desarrollo de informes, avisos, incidencias y sistema de incentivos.",
+          "text3": "Instalación: 7300€.",
           "text4": "Desarrollo: 3 semanas.",
-          "text5": "Mantenimiento mensual: 150€."
+          "text5": "Mantenimiento mensual: 550€."
         },
         "client2": {
-          "name": "Levosfera Paterna",
+          "name": "Calidad del aire",
           "text1": "Desarrollo propio.",
-          "text2": "Descripción: Instalación de sensores para detectar partículas en suspensión cerca de una zona industrial.",
+          "text2": "Descripción: Instalación de sensores para detectar partículas en suspensión cerca de una zona industrial.<br/><br/>Desarrollo de aplicación que elabora informes mensuales y envia alertas cuando los índices  superan ciertos valores.",
           "text3": "Instalación: 6900€.",
           "text4": "Desarrollo: 6 semanas.",
           "text5": "Mantenimiento mensual: 100€."
         },
         "client3": {
-          "name": "Agrobeans Murcia",
-          "text1": "En colaboración con KressySoft S.L.",
-          "text2": "Descripción: Centro de procesamiento para productos hortofrutícolas con 34 trabajadores y 6 líneas de producción. Instalación de sensores para el control de la producción, incentivos a la producción, gestión de incidencias e informes.",
-          "text3": "Instalación: 3400€.",
-          "text4": "Desarrollo: 3 semanas.",
-          "text5": "Mantenimiento mensual: 200€."
+          "name": "Transporte de alimentos",
+          "text1": "Desarrollo propio.",
+          "text2": "Descripción: Desarrollo de dispositivo de monitorización autónomo para contenedores de carga, fundamentalmente Reefer. El dispositivo es totalmente autónomo y se introduce dentro del contenedor para monitorizar la temperatura y la puerta. La empresa aseguradora recibe los datos siempre que hay conexión disponible a través de redes móviles.",
+          "text3": "Instalación: -.",
+          "text4": "Desarrollo: 5 semanas.",
+          "text5": "Mantenimiento mensual: -."
+        },
+        "client4": {
+          "name": "Tratamiento y embalaje de Hortofrutícolas",
+          "text1": "En colaboración con una empresa de desarrollo",
+          "text2": "Descripción: Centro de procesamiento para productos hortofrutícolas con 34 trabajadores y 6 líneas de producción. Instalación de sensores y señales para el control de la producción.<br/><br/>Nuestro partner se encargó de hacer el desarrollo de las pantallas utilizando nuestros servicios para obtener toda la información necesaria y así desarrollar el programa utilizado por los operarios de la nave. También del desarrollo de informes, avisos, incidencias y sistema de incentivos.",
+          "text3": "Instalación: 7400€.",
+          "text4": "Desarrollo: 4 semanas.",
+          "text5": "Mantenimiento mensual: 400€."
         }
       },
       "tools": {
@@ -114,7 +121,7 @@
         "header2": "We digitalize your business",
         "p2": "Our system is compatible with any kind of sensor or signal whether is related to manufacturing, transport, meteorology, health, security.",
         "header3": "We care about everything",
-        "p3": "Our team cake full care on the instalation process. We'll give advice and help you deliver the product that the customer needs in regards to information.",
+        "p3": "Our team takes full care on the instalation process. We'll give advice and help you deliver the product that the customer needs in regards to information.",
         "header4": "All the way with you",
         "p4a": "We know that software development is quite complicated, managing IoT devices might be hard as well. So we better work together to overcome this challenge so you only have to care about development.",
         "p4b": "Managing IoT requires hardware, electronics, networks and other skills related with industrial installations. Thats why only big companies are able to face the digital challenge. We want everyone to have a chance in the ongoing revolution."
@@ -131,8 +138,8 @@
           "value": "Industry 4.0",
           "title": "Do you want to improve your efficiency?"
         },
-        "clients": {
-          "value": "Clients",
+        "projects": {
+          "value": "Projects",
           "title": "Who trust us?"
         },
         "tools": {
@@ -169,9 +176,8 @@
           "exp": "10 years of experience. Expert in serverless, process automatization, security, service resilience, availability and scalability."
         }
       },
-      "clients": {
-        "mainHeader": "Our clients",
-        "advice": "Due to the GDPR policy the data below is not real.",
+      "projects": {
+        "mainHeader": "Our projects",
         "client1": {
           "name": "Helioplast S.L.",
           "text1": "In collaboration with CougarView S.L.",
@@ -189,6 +195,14 @@
           "text5": "Monthly maintainance: 100€."
         },
         "client3": {
+          "name": "Agrobeans Murcia",
+          "text1": "In collaboration with KressySoft S.L.",
+          "text2": "Description: Horticultural processing center with 34 workers and 6 production lines. Installation of sensors and production monitoring to elaborate production incentives, issue handling and reports.",
+          "text3": "Installation: 3400€.",
+          "text4": "Development: 3 semanas.",
+          "text5": "Monthly maintainance: 200€."
+        },
+        "client4": {
           "name": "Agrobeans Murcia",
           "text1": "In collaboration with KressySoft S.L.",
           "text2": "Description: Horticultural processing center with 34 workers and 6 production lines. Installation of sensors and production monitoring to elaborate production incentives, issue handling and reports.",

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="icon" href="img/Tuerca_Color.png">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
   </head>
   <body>
     <section class="header">
@@ -14,10 +15,15 @@
       </logo>
       <nav>
         <div>
-          <select>
+          <script type="text/javascript">
+            function setLang(nlang) {
+              location.href = ["index", nlang, "html"].join(".");
+            }
+          </script>
+          <select onchange="setLang(this.value)">
             <option selected disabled>Lang</option>
-            <option onclick="location.href = 'index.en.html';">EN</option>
-            <option onclick="location.href = 'index.es.html';">ES</option>
+            <option value="en">EN</option>
+            <option value="es">ES</option>
           </select>
         </div>
         <div>
@@ -29,7 +35,7 @@
           </div>
         <% } %>
         <div>
-          <a title="<%=data.content.menu.clients.title%>" href="clients.<%=data.lang%>.html"><%=data.content.menu.clients.value%></a>
+          <a title="<%=data.content.menu.projects.title%>" href="projects.<%=data.lang%>.html"><%=data.content.menu.projects.value%></a>
         </div>
         <div>
           <a title="<%=data.content.menu.tools.title%>" href="tools.<%=data.lang%>.html"><%=data.content.menu.tools.value%></a>
