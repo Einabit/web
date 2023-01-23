@@ -1,7 +1,15 @@
 <%#autoweb:require lang.json%>
-<%#autoweb:each %>
+<%#autoweb:each%>
 <%#autoweb:name index.$lang.html%>
 <%-include("head.inc", data)%>
+<section class="primary home">
+  <div class="inner">
+    <custom-header><%=data.content.head.mainHeader%></custom-header>
+    <div class="dflex jct-center">
+      <custom-cta><%=data.content.head.cta%></custom-cta>
+    </div>
+  </div>
+</section>
 <section>
   <h1><%-data.content.index.mainHeader%></h1>
   <h3><%-data.content.index.mainSub%></h3>

@@ -1,2 +1,4 @@
-public/
+public/*.html
 tasks
+web_assets/
+proposals/

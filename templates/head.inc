@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.8">
   </head>
   <body>
-    <section class="header">
+    <section class="primary header dflex">
       <logo>
         <img src="img/Logo_Einabit_Negativo.png" />
       </logo>
@@ -30,9 +30,9 @@
           <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html"><%=data.content.menu.index.value%></a>
         </div>
         <% if (data.lang === "es") { %>
-          <div>
-            <a title="<%=data.content.menu.industry.title%>" href="industry.<%=data.lang%>.html"><%=data.content.menu.industry.value%></a>
-          </div>
+        <div>
+          <a title="<%=data.content.menu.industry.title%>" href="industry.es.html"><%=data.content.menu.industry.value%></a>
+        </div>
         <% } %>
         <div>
           <a title="<%=data.content.menu.projects.title%>" href="projects.<%=data.lang%>.html"><%=data.content.menu.projects.value%></a>
