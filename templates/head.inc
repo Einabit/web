@@ -15,18 +15,6 @@
       </logo>
       <nav>
         <div>
-          <script type="text/javascript">
-            function setLang(nlang) {
-              location.href = ["index", nlang, "html"].join(".");
-            }
-          </script>
-          <select onchange="setLang(this.value)">
-            <option selected disabled>Lang</option>
-            <option value="en">EN</option>
-            <option value="es">ES</option>
-          </select>
-        </div>
-        <div>
           <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html"><%=data.content.menu.index.value%></a>
         </div>
         <% if (data.lang === "es") { %>
@@ -42,6 +30,18 @@
         </div>
         <div>
           <a title="<%=data.content.menu.about.title%>" href="about.<%=data.lang%>.html"><%=data.content.menu.about.value%></a>
+        </div>
+        <div>
+          <script type="text/javascript">
+            function setLang(nlang) {
+              location.href = ["index", nlang, "html"].join(".");
+            }
+          </script>
+          <select onchange="setLang(this.value)">
+            <option selected disabled>&#127760; Lang</option>
+            <option value="en">EN</option>
+            <option value="es">ES</option>
+          </select>
         </div>
       </nav>
     </section>
