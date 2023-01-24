@@ -1,14 +1,24 @@
 /*phone and tablet*/
 @media (max-width: 1280px) {
   section {
-    padding: 0 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .home .inner {
+    padding: 2rem 0;
   }
 }
 
 /*mid desktop*/
 @media (min-width: 1281px) and (max-width: 2048px) {
   section:not(.header) {
-    padding: 0 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .home .inner {
+    padding: 4rem 0;
   }
 
   .header {
@@ -19,7 +29,12 @@
 /*big desktop*/
 @media (min-width: 2049px) {
   section:not(.header) {
-    padding: 0 25%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .home .inner {
+    padding: 4rem 0;
   }
 
   .header {

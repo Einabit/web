@@ -12,8 +12,11 @@ h1 {
   font-size: 48px;
 }
 
-.home .inner {
-  padding: 8rem 0;
+.feature-wide {
+  text-align: center;
+  background-color: #DFDFDF;
+  padding-top:3rem;
+  padding-bottom:3rem;
 }
 
 .dflex {
@@ -22,24 +25,59 @@ h1 {
 
 .home {
   padding: 6rem 0;
+}
 
+.footer span {
+  color: #FF9900;
+}
+
+.footer img {
+  width: 12rem;
 }
 
 .feature-icon {
   margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.feature-icon p {
+  padding-right: 3rem;
+}
+
+.footer-line {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, #FF9900 50%, rgba(255,255,255,1) 100%);
+  height: 5px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+section.footer {
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  background-image: url('img/Logo_Einabit_Color.png');
+  background-size: 10rem;
+  padding-left: 12rem;
+  background-repeat: no-repeat;
+  background-position-y: center;
 }
 
 .feature-icon img {
   width: 8rem;
-  margin: 0 3rem;
 }
 
 .jct-center {
   justify-content: center;
 }
 
+.jct-between {
+  justify-content: space-between;
+}
+
 section.header {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   position: fixed;
   right: 0;
   left: 0;
@@ -67,7 +105,7 @@ section.primary {
   background-color: #FF9900;
 }
 
-section p {
+section:not(.footer) p {
   line-height: 2;
 }
 
@@ -75,11 +113,21 @@ nav div {
   margin: auto 0px auto 2rem;
 }
 
-a[href] {
+a[href]:not(.mailto, .ext) {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
   background-color: #FF9900;
+}
+
+.mailto {
+  font-weight: bold;
+  font-size: unset;
+  text-decoration: none;
+}
+
+.ext img {
+  width: 2rem;
 }
 
 section.header a {
@@ -102,12 +150,6 @@ section.about > div {
 }
 
 section.about span {
-  color: black;
-}
-
-section.footer a {
-  font-size: unset;
-  text-decoration: none;
   color: black;
 }
 

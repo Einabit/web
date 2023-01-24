@@ -2,11 +2,11 @@
 <%#autoweb:each%>
 <%#autoweb:name index.$lang.html%>
 <%-include("head.inc", data)%>
-<section class="primary home wide">
+<section class="primary home">
   <div class="inner">
     <custom-header><%=data.content.head.mainHeader%></custom-header>
     <div class="dflex jct-center">
-      <custom-cta><%=data.content.head.cta%></custom-cta>
+      <custom-cta onclick="location.href = 'mailto:info@einabit.com'"><%=data.content.head.cta%></custom-cta>
     </div>
   </div>
 </section>
@@ -16,28 +16,28 @@
     <p><%-data.content.index.mainSub%></p>
   </custom-highlight>
 </section>
-<section class="dflex feature-icon">
+<section class="dflex jct-between feature-icon">
   <div>
     <h2><%-data.content.index.header1%></h2>
     <p><%-data.content.index.p1%></p>
   </div>
   <img src="icons/SVG/icono-01.svg"/>
 </section>
-<section class="dflex feature-icon">
+<section class="dflex jct-between feature-icon">
   <div>
     <h2><%-data.content.index.header2%></h2>
     <p><%-data.content.index.p2%></p>
   </div>
   <img src="icons/SVG/icono-02.svg"/>
 </section>
-<section class="dflex feature-icon">
+<section class="dflex jct-between feature-icon">
   <div>
     <h2><%-data.content.index.header3%></h2>
     <p><%-data.content.index.p3%></p>
   </div>
   <img src="icons/SVG/icono-03.svg"/>
 </section>
-<section class="wide">
+<section class="feature-wide">
   <h2><%-data.content.index.header4%></h2>
   <p><%-data.content.index.p4a%></p>
   <p><%-data.content.index.p4b%></p>
