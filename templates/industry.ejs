@@ -1,37 +1,45 @@
 <%#autoweb:require lang.json%>
 <%#autoweb:pick 0%>
 <%#autoweb:name industry.es.html%>
-
 <%-include("head.inc", data)%>
+<section class="home">
+  <h2 class="txt-center">La nueva Revolución Industrial</h2>
+  <p class="txt-center">Ayudamos a empresas del ámbito industrial a digitalizar su producción, identificar pérdidas, mejorar la eficiencia y por tanto, <strong>incrementar su competitividad</strong>.</p>
+  <h2 class="txt-center">Facilitamos el desarrollo de la Industria 4.0</h2>
+</section>
 <section>
-  <h1>Facilitamos el desarrollo de la Industria 4.0</h1>
   <!-- <video autoplay controls> -->
   <video controls poster="img/Logo_Einabit_Negativo.png">
      <source src="video/einabit-industria.mp4" type="video/mp4">
   </video>
 </section>
-<section>
-  <h2>La nueva Revolución Industrial</h2>
-  <p>Ayudamos a empresas del ámbito industrial a digitalizar su producción, identificar pérdidas, mejorar la eficiencia y, por tanto, <strong>incrementar su competitividad</strong>.</p>
-</section>
-<section>
+<section class="vertical-space">
   <h2>¿En qué consiste?</h2>
   <p>Nuestra misión es traer la industria 4.0 a todas las compañías industriales sin importar el volumen de negocio. Proporcionamos soluciones integrales para el análisis y control de la producción a tiempo real.</p>
   <p>Toda la instalación es realizada en profundidad por nuestro equipo, llevamos a cabo la formación y damos soporte en todo momento. Nuestro producto está basado en las últimas tecnologías, es rápido y sencillo.</p>
 </section>
-<section class="reports">
-  <h2>Soluciones adaptadas a tus necesidades</h2>
-  <div class="dflex">
-    <img src="reports/reports0.jpg" />
-    <p>Almacenamos automáticamente informes para que puedas consultar con todo lujo de detalle la eficiencia, incidencias e incentivos.</p>
+<section class="feature-wide darkblue">
+  <p class="bold">Te ayudamos a digitalizar tu producción, identificar pérdidas, mejorar la eficiencia y, por tanto, incrementar tu competitividad en la industria.</p>
+</section>
+<section class="reports vertical-space">
+  <h2 class="txt-center">Soluciones adaptadas a tus necesidades</h2>
+  <div class="dflex jct-between vertical-space">
+    <img class="shadow border-radius" src="reports/reports0.jpg" />
+    <div>
+      <p>Almacenamos automáticamente informes para que puedas consultar con todo lujo de detalle la eficiencia, incidencias e incentivos.</p>
+    </div>
   </div>
-  <div class="dflex">
-    <img src="reports/reports1.jpg" />
-    <p>Te mostramos los datos con todo lujo de detalles para que puedas tomar decisiones acertadas. Nuestra aplicación es clara y sencilla de utilizar.</p>
+  <div class="dflex jct-between vertical-space">
+    <div>
+      <p>Te mostramos los datos con todo lujo de detalles para que puedas tomar decisiones acertadas. Nuestra aplicación es clara y sencilla de utilizar.</p>
+    </div>
+    <img class="shadow border-radius" src="reports/reports1.jpg" />
   </div>
-  <div class="dflex">
-    <img src="reports/reports2.jpg" />
-    <p>Los operarios disponen de herramientas para notificar incidencias, justificar paradas e incluso corregir los conteos si fuera necesario.</p>
+  <div class="dflex jct-between vertical-space">
+    <img class="shadow border-radius" src="reports/reports2.jpg" />
+    <div>
+      <p>Los operarios disponen de herramientas para notificar incidencias, justificar paradas e incluso corregir los conteos si fuera necesario.</p>
+    </div>
   </div>
 </section>
 <%-include("foot.inc")%>

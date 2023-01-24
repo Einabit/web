@@ -4,40 +4,40 @@
 <%-include("head.inc", data)%>
 <section class="primary home">
   <div class="inner">
-    <custom-header><%=data.content.head.mainHeader%></custom-header>
+    <custom-home-header><%=data.content.head.mainHeader%></custom-home-header>
     <div class="dflex jct-center">
       <custom-cta onclick="location.href = 'mailto:info@einabit.com'"><%=data.content.head.cta%></custom-cta>
     </div>
   </div>
 </section>
 <section>
-  <custom-highlight style="margin-top: -80px">
+  <custom-highlight class="shadow border-radius" style="margin-top: -80px">
     <h2><%-data.content.index.mainHeader%></h2>
     <p><%-data.content.index.mainSub%></p>
   </custom-highlight>
 </section>
-<section class="dflex jct-between feature-icon">
+<section class="dflex jct-between vertical-space feature-icon">
   <div>
     <h2><%-data.content.index.header1%></h2>
     <p><%-data.content.index.p1%></p>
   </div>
   <img src="icons/SVG/icono-01.svg"/>
 </section>
-<section class="dflex jct-between feature-icon">
+<section class="dflex jct-between vertical-space feature-icon">
   <div>
     <h2><%-data.content.index.header2%></h2>
     <p><%-data.content.index.p2%></p>
   </div>
   <img src="icons/SVG/icono-02.svg"/>
 </section>
-<section class="dflex jct-between feature-icon">
+<section class="dflex jct-between vertical-space feature-icon">
   <div>
     <h2><%-data.content.index.header3%></h2>
     <p><%-data.content.index.p3%></p>
   </div>
   <img src="icons/SVG/icono-03.svg"/>
 </section>
-<section class="feature-wide">
+<section class="feature-wide gray">
   <h2><%-data.content.index.header4%></h2>
   <p><%-data.content.index.p4a%></p>
   <p><%-data.content.index.p4b%></p>
