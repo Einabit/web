@@ -66,13 +66,13 @@ p {
   width: 12rem;
 }
 
+.tool-feature img {
+  width: 30%;
+}
+
 .vertical-space {
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.tools a {
-
 }
 
 .feature-icon p {
@@ -84,6 +84,21 @@ p {
   height: 3px;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+custom-highlight {
+  position: relative;
+}
+
+custom-highlight a {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+custom-highlight a:after {
+  content: "\2197";
+  font-size: 2rem;
 }
 
 section.footer {
