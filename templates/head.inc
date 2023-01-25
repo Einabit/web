@@ -13,6 +13,7 @@
       <logo>
         <img src="img/Logo_Einabit_Negativo.png" />
       </logo>
+      <!-- https://codepen.io/alvarotrigo/pen/MWEJEWG -->
       <nav>
         <div>
           <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html"><%=data.content.menu.index.value%></a>
@@ -39,9 +40,21 @@
           </script>
           <select onchange="setLang(this.value)">
             <option selected disabled>&#127760; Lang</option>
-            <option value="en">EN</option>
-            <option value="es">ES</option>
+            <option value="en">🇬🇧 EN</option>
+            <option value="es">🇪🇸 ES</option>
           </select>
         </div>
       </nav>
+      <script type="text/javascript">
+        if (screen.width <= 1280) {
+          const navEl = document.querySelector("nav");
+          navEl.classList.add("phone");
+
+          navEl.addEventListener("click", (evt) => {
+            if (evt.target.nodeName === "NAV") {
+              navEl.classList.toggle("open");
+            }
+          })
+        }
+      </script>
     </section>
