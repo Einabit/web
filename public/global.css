@@ -9,11 +9,23 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1.2rem;
+}
+
+.bg-pattern-1 {
+  background: url('pattern/patron-01.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.bg-pattern-2 {
+  background: url('pattern/patron-02.svg');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .bold {
@@ -46,6 +58,10 @@ p {
   padding-bottom: 1.5rem;
 }
 
+.industry-highlight img {
+  height: 12rem;
+}
+
 .dflex {
   display: flex;
 }
@@ -56,6 +72,14 @@ p {
 
 .push-top {
   padding-top: 6rem;
+}
+
+.push-right {
+  padding-right: 2rem;
+}
+
+.push-left {
+  padding-left: 2rem;
 }
 
 .footer span {
