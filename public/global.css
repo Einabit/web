@@ -20,6 +20,13 @@ p {
   font-weight: bold;
 }
 
+.valign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+}
+
 .darkblue {
   background-color: #1D1D1D;
 }
@@ -47,6 +54,10 @@ p {
   padding: 6rem 0;
 }
 
+.push-top {
+  padding-top: 6rem;
+}
+
 .footer span {
   color: #FF9900;
 }
@@ -58,6 +69,10 @@ p {
 .vertical-space {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.tools a {
+
 }
 
 .feature-icon p {
@@ -97,6 +112,14 @@ section.footer {
 
 .border-radius {
   border-radius: 15px;
+}
+
+.push-bottom {
+  margin-bottom: 20px;
+}
+
+.dflex.wrap {
+  flex-wrap: wrap;
 }
 
 .jct-between {
@@ -149,7 +172,6 @@ a[href]:not(.mailto, .ext) {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
-  background-color: #FF9900;
 }
 
 .mailto {
@@ -222,7 +244,6 @@ custom-cta {
 }
 
 custom-highlight {
-  text-align: center;
   display: block;
   background: white;
   padding: 1.5rem 3rem;

@@ -8,6 +8,21 @@
   .home .inner {
     padding: 2rem 0;
   }
+
+  .dflex.wrap.two > * {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1281px) {
+  .dflex.wrap.two > * {
+    width: calc(50% - 6rem - 10px);
+    min-width: 200px;
+  }
+
+  .dflex.wrap.two > *:not(:first-child) {
+    margin-left: 20px;
+  }
 }
 
 /*mid desktop*/

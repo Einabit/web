@@ -2,27 +2,35 @@
 <%#autoweb:each %>
 <%#autoweb:name projects.$lang.html%>
 <%-include("head.inc", data)%>
-<section>
-  <h1><%=data.content.projects.mainHeader%></h1>
+<section class="push-top">
+  <h2 class="txt-center"><%=data.content.projects.mainHeader%></h2>
 </section>
-<section>
-  <p><strong><%=data.content.projects.client1.name%></strong></p>
-  <p><%=data.content.projects.client1.text1%></p>
-  <p><%-data.content.projects.client1.text2%></p>
+<section class="vertical-space">
+  <custom-highlight class="shadow border-radius">
+    <h3><%=data.content.projects.client1.name%></h3>
+    <p><%=data.content.projects.client1.text1%></p>
+    <p><%-data.content.projects.client1.text2%></p>
+  </custom-highlight>
 </section>
-<section>
-  <p><strong><%=data.content.projects.client2.name%></strong></p>
-  <p><%=data.content.projects.client2.text1%></p>
-  <p><%-data.content.projects.client1.text2%></p>
+<section class="vertical-space">
+  <custom-highlight class="shadow border-radius">
+    <h3><%=data.content.projects.client2.name%></h3>
+    <p><%=data.content.projects.client2.text1%></p>
+    <p><%-data.content.projects.client2.text2%></p>
+  </custom-highlight>
 </section>
-<section>
-  <p><strong><%=data.content.projects.client3.name%></strong></p>
-  <p><%=data.content.projects.client3.text1%></p>
-  <p><%-data.content.projects.client1.text2%></p>
+<section class="vertical-space">
+  <custom-highlight class="shadow border-radius">
+    <h3><%=data.content.projects.client3.name%></h3>
+    <p><%=data.content.projects.client3.text1%></p>
+    <p><%-data.content.projects.client3.text2%></p>
+  </custom-highlight>
 </section>
-<section>
-  <p><strong><%=data.content.projects.client4.name%></strong></p>
-  <p><%=data.content.projects.client4.text1%></p>
-  <p><%-data.content.projects.client4.text2%></p>
+<section class="vertical-space">
+  <custom-highlight class="shadow border-radius">
+    <h3><%=data.content.projects.client4.name%></h3>
+    <p><%=data.content.projects.client4.text1%></p>
+    <p><%-data.content.projects.client4.text2%></p>
+  </custom-highlight>
 </section>
 <%-include("foot.inc")%>
