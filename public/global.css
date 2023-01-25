@@ -70,6 +70,10 @@ p {
   width: 30%;
 }
 
+.tool-title img {
+  height: 4rem;
+}
+
 .vertical-space {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -151,6 +155,7 @@ section.header {
   position: fixed;
   right: 0;
   left: 0;
+  z-index: 9;
 }
 
 section.header select {
