@@ -5,6 +5,10 @@
     padding-right: 10px;
   }
 
+  .mobile-hidden {
+    display: none;
+  }
+
   .home .inner {
     padding: 2rem 0;
   }

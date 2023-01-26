@@ -66,6 +66,17 @@ p {
   display: flex;
 }
 
+.project {
+  position: relative;
+}
+
+.project img {
+  position: absolute;
+  width: 5rem;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
 .home {
   padding: 6rem 0;
 }
@@ -91,11 +102,13 @@ p {
 }
 
 .tool-feature img {
-  width: 30%;
+  width: 15rem;
 }
 
 .tool-title img {
-  height: 4rem;
+  height: 10rem;
+  margin-bottom: -3rem;
+  margin-top: -2rem;
 }
 
 .vertical-space {
