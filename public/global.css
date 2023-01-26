@@ -48,6 +48,10 @@ p {
   font-size: 22px;
 }
 
+.darkblue h2 {
+  color: white;
+}
+
 .gray {
   background-color: #DFDFDF;
 }
@@ -103,6 +107,7 @@ p {
 
 .tool-feature img {
   width: 15rem;
+  margin: -3rem 0;
 }
 
 .tool-title img {
@@ -114,6 +119,10 @@ p {
 .vertical-space {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.company img {
+  width: 16rem;
 }
 
 .feature-icon p {
@@ -221,9 +230,9 @@ a[href]:not(.mailto, .ext) {
   font-weight: bold;
 }
 
-.mailto {
+a[href^="https"], a[href^="mailto"] {
+  color: #FF9900;
   font-weight: bold;
-  font-size: unset;
   text-decoration: none;
 }
 
@@ -235,9 +244,12 @@ section.header a {
   color: white;
 }
 
-section.about > div > img {
-  width: 35%;
-  max-width: 250px;
+section.about img {
+  width: 100%;
+}
+
+section.about .footer-line {
+  margin-top: 0;
 }
 
 section.about > div > div {

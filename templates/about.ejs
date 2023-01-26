@@ -2,53 +2,66 @@
 <%#autoweb:each %>
 <%#autoweb:name about.$lang.html%>
 <%-include("head.inc", data)%>
-<section>
-  <h1><%=data.content.about.mainHeader%></h1>
+
+<section class="company push-top">
+  <h1 class="txt-center"><%=data.content.about.mainHeader%></h1> <p><%=data.content.about.text3a%></p>
+  <p><%=data.content.about.text3b%></p>
+  <div class="dflex jct-center">
+    <img src="img/einabit-no-loop.gif" />
+  </div>
+  <p><%=data.content.about.text3c%></p>
 </section>
-<section>
-  <h3><%=data.content.about.text3a%></h3>
-  <h3><%=data.content.about.text3b%></h3>
-  <h3><%=data.content.about.text3c%></h3>
+<section class="feature-wide darkblue">
+  <h2 class="txt-center bold"><%=data.content.about.contactHeader%></h2>
+  <p><%-data.content.about.contactText%></p>
 </section>
-<section>
-  <h2><%=data.content.about.contactHeader%></h2>
-  <h2><%-data.content.about.contactText%></h2>
-</section>
-<section>
-  <h2><%=data.content.about.ourTeam%></h2>
+<section class="push-top">
+  <h2 class="txt-center"><%=data.content.about.ourTeam%></h2>
 </section>
 <section class="about">
-  <div>
-    <img src="profile/ciro.png" />
-    <div>
-      <h4><span>Ciro Iván Agulló</span> - [<%=data.content.about.ciro.title%>]</h4>
-      <p><%=data.content.about.ciro.exp%></p>
-    </div>
+  <div class="dflex wrap two">
+    <custom-highlight class="push-bottom shadow border-radius">
+      <img src="profile/ciro.png" />
+      <div class="footer-line"></div>
+      <div>
+        <h2>Ciro Iván Agulló</h2>
+        <h3><%=data.content.about.ciro.title%></h3>
+        <p><%=data.content.about.ciro.exp%></p>
+      </div>
+      <a href="https://www.linkedin.com/in/ciro-ivan-agull%C3%B3-guarinos-42109376/"></a>
+    </custom-highlight>
+    <custom-highlight class="push-bottom shadow border-radius">
+      <img src="profile/rober.png" />
+      <div class="footer-line"></div>
+      <div>
+        <h2>Roberto Priego Sánchez</h2>
+        <h3><%=data.content.about.rober.title%></h3>
+        <p><%=data.content.about.rober.exp%></p>
+      </div>
+      <a href="https://www.linkedin.com/in/roberto-priego-433744a4/"></a>
+    </custom-highlight>
   </div>
-  <hr />
-  <div>
-    <img src="profile/rober.png" />
-    <div>
-      <h4><span>Roberto Priego Sánchez</span> - [<%=data.content.about.rober.title%>]</h4>
-      <p><%=data.content.about.rober.exp%></p>
-    </div>
+  <div class="dflex wrap two">
+    <custom-highlight class="push-bottom shadow border-radius">
+      <img src="profile/jorge.png" />
+      <div class="footer-line"></div>
+      <div>
+        <h2>Jorge Peidro Oltra</h2>
+        <h3><%=data.content.about.jorge.title%></h3>
+        <p><%=data.content.about.jorge.exp%></p>
+      </div>
+      <a href="https://www.linkedin.com/in/jorge-peidro-oltra-7a57351ba/"></a>
+    </custom-highlight>
+    <custom-highlight class="push-bottom shadow border-radius">
+      <img src="profile/adri.png" />
+      <div class="footer-line"></div>
+      <div>
+        <h2>Adri Seguí Rico</h2>
+        <h3><%=data.content.about.adri.title%></h3>
+        <p><%=data.content.about.adri.exp%></p>
+      </div>
+      <a href="https://www.linkedin.com/in/adrianseguirico/"></a>
+    </custom-highlight>
   </div>
-  <hr />
-  <div>
-    <img src="profile/jorge.png" />
-    <div>
-      <h4><span>Jorge Peidro Oltra</span> - [<%=data.content.about.coke.title%>]</h4>
-      <p><%=data.content.about.coke.exp%></p>
-    </div>
-  </div>
-  <hr />
-  <div>
-    <img src="profile/adri.jpeg" />
-    <div>
-      <h4><span>Adri Seguí Rico</span> - [<%=data.content.about.coke.title%>]</h4>
-      <p><%=data.content.about.coke.exp%></p>
-    </div>
-  </div>
-  <hr />
 </section>
 <%-include("foot.inc")%>

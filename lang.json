@@ -43,12 +43,12 @@
         }
       },
       "about": {
-        "mainHeader": "Empresa",
+        "mainHeader": "Nuestra visión",
         "text3a": "Durante el confinamiento del Covid-19, en 2020, nos dimos cuenta de que podíamos mejorar las herramientas que se usaban en la industria a nivel de software. Nuestra misión principal es la de desarrollar el mejor producto posible utilizando nuestra visión y vuestro feedback.",
         "text3b": "Un producto que ayude a nuestros clientes a ser más eficientes y tener más información sobre sus negocios para poder tomar mejores decisiones.",
         "text3c": "Desde entonces nuestro producto ha evolucionado hasta abarcar cualquier proyecto relacionado con IoT. En Einabit pensamos que la especialización es la clave del éxito, y nosotros hemos decidido especializarnos en el ámbito de la digitalización.",
         "contactHeader": "Contacto",
-        "contactText": "Escríbenos un correo a <a href=\"mailto:info@einabit.com\">info@einabit.com</a> o síguenos a través de <a href=\"https://www.linkedin.com/company/einabit/\">Linkedin</a>",
+        "contactText": "Escríbenos un correo a <a href=\"mailto:info@einabit.com\">info@einabit.com</a><br/> o síguenos a través de <a href=\"https://www.linkedin.com/company/einabit/\">Linkedin</a>",
         "ourTeam": "Nuestro equipo",
         "ciro": {
           "title": "Arquitecto de Software",
@@ -58,7 +58,7 @@
           "title": "Integrador Industrial",
           "exp": "6 años de experiencia. Visión artificial, programación, robótica, mecanizado y electricidad."
         },
-        "coke": {
+        "jorge": {
           "title": "Técnico Industrial",
           "exp": "3 años de experiencia. Mecánica, electrónica, robótica y visión artificial."
         },
@@ -144,7 +144,7 @@
         }
       },
       "about": {
-        "mainHeader": "Company",
+        "mainHeader": "Our vision",
         "text3a": "During Covid-19 lockdown, in 2020, we realized that the tools used in the industry at software level could be improved by far. Our main mission is to offer the best product possible with our vision and your feedback.",
         "text3b": "A product that helps our customers to be more efficient and provides all information available so they're able to make best decisions.",
         "text3c": "Since then our product has evolved till ecompass any project related with IoT. In Einabit we're sure that specialization is the key of success, so we're experts in digitalizing information workflows.",
@@ -159,7 +159,7 @@
           "title": "Industrial Integrator",
           "exp": "6 years of experience. Artificial vision, programming, robotics and mechatronics."
         },
-        "coke": {
+        "jorge": {
           "title": "Industrial Technician",
           "exp": "3 years of experience. Robotics, artificial vision and mechatronics."
         },
