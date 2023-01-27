@@ -244,7 +244,8 @@ section.header a {
 }
 
 section.about img {
-  width: 100%;
+  width: calc(100% - 8rem);
+  margin: 0 4rem;
 }
 
 section.about .footer-line {
@@ -270,13 +271,7 @@ section video {
 }
 
 section.reports img {
-  width: calc(60% - 20px);
-  margin: 10px;
-}
-
-section.reports .dflex div {
-  width: 30%;
-  margin: 10px;
+  width: 100%;
 }
 
 custom-home-header, custom-cta {
