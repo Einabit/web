@@ -32,18 +32,15 @@
         <div>
           <a title="<%=data.content.menu.about.title%>" href="about.<%=data.lang%>.html"><%=data.content.menu.about.value%></a>
         </div>
+        <% if (data.lang === "es") { %>
         <div>
-          <script type="text/javascript">
-            function setLang(nlang) {
-              location.href = ["index", nlang, "html"].join(".");
-            }
-          </script>
-          <select onchange="setLang(this.value)">
-            <option selected disabled>&#127760; Lang</option>
-            <option value="en">🇬🇧 EN</option>
-            <option value="es">🇪🇸 ES</option>
-          </select>
+          <a title="English language" href="index.en.html">English 🇬🇧</a>
         </div>
+        <% } else if (data.lang === "en") { %>
+        <div>
+          <a title="Idioma español" href="index.es.html">Español 🇪🇸</a>
+        </div>
+        <% } %>
       </nav>
       <script type="text/javascript">
         if (screen.width <= 1280) {
