@@ -4,13 +4,13 @@
     "content": {
       "index": {
         "mainHeader": "Una vuelta de tuerca al \"<i>Internet de las Cosas</i>\"",
-        "mainSub": "Einabit es una empresa que hace realidad tus proyectos de IoT a gran escala. Instalamos sensores, recogemos y almacenamos los datos para que solo tengas que preocuparte de desarrollar soluciones para tus clientes",
+        "mainSub": "Einabit es una empresa que hace realidad tus proyectos de IoT a gran escala. Nos encargamos de todo lo relativo al mundo IoT para que tú solo tengas que preocuparte de desarrollar soluciones para tus clientes.",
         "header1": "Un producto para desarrolladores",
-        "p1": "A diferencia de otras empresas, nosotros ofrecemos un producto compatible con entornos de desarrollo modernos. Nuestra pasarela de datos está alojada en servidores de alta disponibilidad y acorde con los últimos estándares.",
+        "p1": "A diferencia de otras empresas, nosotros ofrecemos un producto <b>compatible con entornos de desarrollo modernos</b>. Nuestra pasarela de datos está alojada en servidores de alta disponibilidad y acorde con los últimos estándares.",
         "header2": "Digitalizamos tu negocio",
-        "p2": "Nuestro sistema es compatible con cualquier sensor, ya sea relacionado con industria de manufactura, transporte, meteorología, salud, seguridad y perimetraje.",
-        "header3": "Nos encargamos de todo",
-        "p3": "Nuestro equipo se encarga íntegramente del proceso de instalación. También te asesoraremos en función de las necesidades del cliente.",
+        "p2": "Nuestro sistema es compatible con <b>cualquier sensor</b>, ya sea relacionado con industria de manufactura, transporte, meteorología, salud, seguridad y perimetraje.",
+        "header3": "Somos los únicos en España",
+        "p3": "Somos la única empresa que se encarga íntegramente de <b>todo el proceso relativo a adquisición de datos</b>. Instalamos sensores y nos integramos con el proceso del cliente, recogemos y almacenamos los datos, y finalmente te habilitamos una pasarela de datos o API para que puedas desarrollar fácilmente tu negocio sin complicaciones.",
         "header4": "Te ayudamos a llegar más lejos",
         "p4a": "Sabemos mejor que nadie lo complicado que son los proyectos de software. Si a todo esto añadimos tener que mantener equipos electrónicos la complejidad de nuestro proyecto se incrementa exponencialmente.",
         "p4b": "El mundo IoT requiere de conocimientos de hardware, electrónica y otra serie de aptitudes relacionadas con el mundo de las instalaciones industriales. Es por eso que hasta ahora solo empresas con abundantes recursos pueden abordar la transformación digital y esto es una grave desventaja para las PYMEs."
@@ -105,13 +105,13 @@
     "content": {
       "index": {
         "mainHeader": "Another twist to the \"<i>Internet Of Things</i>\"",
-        "mainSub": "Einabit is a company that allows to easily develop your IoT projects. We install sensors, retrieve signals and store all data so you only have to care about the development of the solution",
+        "mainSub": "Einabit is a company that allows to easily develop your IoT projects. We deal with electronics and IoT devices so you only have to care about the development of the product for your clients.",
         "header1": "A product for developers",
-        "p1": "Unlike other companies, we offer a product compatible with modern environments and tools. Our API is hosted in the best data centers that ensures high availability.",
+        "p1": "Unlike other companies, we offer a product <b>compatible with modern environments and tools</b>. Our API is hosted in the best data centers that ensures high availability.",
         "header2": "We digitalize your business",
-        "p2": "Our system is compatible with any kind of sensor or signal whether is related to manufacturing, transport, meteorology, health, security.",
+        "p2": "Our system is compatible with <b>any kind of sensor or signal</b> whether is related to manufacturing, transport, meteorology, health, security.",
         "header3": "We care about everything",
-        "p3": "Our team takes full care on the instalation process. We'll give advice and help you deliver the product that the customer needs in regards to information.",
+        "p3": "Our team takes full care on the <b>whole process of data retrieval and ingestion</b>. We install sensors and integrate against your client's process, we retrieve, digest and store all data, and finally we provide you an API to fetch all the information in the way you decide so you only care about your business.",
         "header4": "All the way with you",
         "p4a": "We know that software development is quite complicated, managing IoT devices might be hard as well. So we better work together to overcome this challenge so you only have to care about development.",
         "p4b": "Managing IoT requires hardware, electronics, networks and other skills related with industrial installations. Thats why only big companies are able to face the digital challenge. We want everyone to have a chance in the ongoing revolution."
