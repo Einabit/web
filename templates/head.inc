@@ -32,13 +32,16 @@
         <div>
           <a title="<%=data.content.menu.about.title%>" href="about.<%=data.lang%>.html"><%=data.content.menu.about.value%></a>
         </div>
+        <div class="menu-highlight">
+          <a href="about.<%=data.lang%>.html#contact"><%=data.content.about.contactHeader%></a>
+        </div>
         <% if (data.lang === "es") { %>
         <div>
-          <a title="English language" href="index.en.html">English 🇬🇧</a>
+          <a title="English language" href="index.en.html">🇬🇧</a>
         </div>
         <% } else if (data.lang === "en") { %>
         <div>
-          <a title="Idioma español" href="index.es.html">Español 🇪🇸</a>
+          <a title="Idioma español" href="index.es.html">🇪🇸</a>
         </div>
         <% } %>
       </nav>

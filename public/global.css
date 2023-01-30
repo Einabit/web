@@ -287,6 +287,12 @@ custom-home-header {
   display: block;
 }
 
+.menu-highlight a {
+  background: #1D1D1D;
+  padding: 0.2rem 0.6rem;
+  border-radius: 15px;
+}
+
 custom-cta {
   font-size: 24px;
   background: #1D1D1D;
