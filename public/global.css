@@ -65,6 +65,42 @@ p {
   height: 12rem;
 }
 
+.comparison-table {
+  width: inherit;
+}
+
+.comparison-table .dflex div {
+  width: 30%;
+}
+
+.comparison-table ul {
+  padding: 0;
+}
+
+.comparison-table ul li:first-child {
+  border-bottom: solid 2px black;
+}
+
+/* .comparison-table ul li:not(:first-child) {
+  border-bottom: dashed 1px grey;
+} */
+
+.comparison-table li {
+  width: 100%;
+  margin-bottom: 3rem;
+  list-style: none;
+}
+
+.comparison-table .dflex div:not(:first-child) li {
+  text-align: center;
+}
+
+.comparison-table li:not(:first-child) {
+  width: 100%;
+  height: 3rem;
+  list-style: none;
+}
+
 .dflex {
   display: flex;
 }
@@ -86,6 +122,10 @@ p {
 
 .push-top {
   padding-top: 6rem;
+}
+
+.push-bottom {
+  padding-bottom: 1rem;
 }
 
 .push-right {
