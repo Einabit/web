@@ -283,7 +283,7 @@ custom-home-header {
   font-size: 32px;
   margin-bottom: .8rem;
   padding: 0 20%;
-  text-shadow: 3px 3px 1px #8A8A8A;
+  text-shadow: 2px 2px 5px #8A8A8A;
   text-align: center;
   display: block;
 }
