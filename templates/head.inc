@@ -10,9 +10,11 @@
   </head>
   <body>
     <section class="primary header dflex">
-      <logo>
-        <img src="img/Logo_Einabit_Negativo.png" />
-      </logo>
+      <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html">
+        <logo>
+          <img src="img/Logo_Einabit_Negativo.png" />
+        </logo>
+      </a>
       <!-- https://codepen.io/alvarotrigo/pen/MWEJEWG -->
       <nav>
         <div>
