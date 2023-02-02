@@ -72,22 +72,26 @@
         "client1": {
           "name": "Fábrica de plásticos",
           "text1": "En colaboración con una empresa de desarrollo",
-          "text2": "Descripción: Fábrica de plasticos con una plantilla de 64 trabajadores y 12 líneas de producción. Se llevó a cabo la instalación de fotocélulas para el conteo y señales parada.<br/><br/>Nuestro partner se encargó de hacer el desarrollo de las pantallas utilizando nuestros servicios para obtener toda la información necesaria y así desarrollar el programa utilizado por los operarios de la nave. También del desarrollo de informes, avisos, incidencias y sistema de incentivos."
+          "text2": "Objetivo: Incrementar eficiencia, reducir mermas, automatización de procesos e incentivos a la productividad.",
+          "text3": "Descripción: Fábrica de plasticos con una plantilla de 64 trabajadores y 12 líneas de producción. Se llevó a cabo la instalación de fotocélulas para el conteo y señales parada.<br/><br/>Nuestro partner se encargó de hacer el desarrollo de las pantallas utilizando nuestros servicios para obtener toda la información necesaria y así desarrollar el programa utilizado por los operarios de la nave. También del desarrollo de informes, avisos, incidencias y sistema de incentivos."
         },
         "client2": {
           "name": "Calidad del aire",
           "text1": "Desarrollo propio.",
-          "text2": "Descripción: Instalación de sensores para detectar partículas en suspensión cerca de una zona industrial.<br/><br/>Desarrollo de aplicación que elabora informes mensuales y envia alertas cuando los índices  superan ciertos valores."
+          "text2": "Objetivo: Proporcionar información a la adm. local de posibles irregularidades en índices de contaminación",
+          "text3": "Descripción: Instalación de sensores para detectar partículas en suspensión cerca de una zona industrial.<br/><br/>Desarrollo de aplicación que elabora informes mensuales y envia alertas cuando los índices  superan ciertos valores."
         },
         "client3": {
           "name": "Transporte de alimentos",
           "text1": "Desarrollo propio.",
-          "text2": "Descripción: Desarrollo de dispositivo de monitorización autónomo para contenedores de carga, fundamentalmente Reefer. El dispositivo es totalmente autónomo y se introduce dentro del contenedor para monitorizar la temperatura y la puerta. El dispositivo almacena la información y la envia siempre que hay conexión disponible a través de redes móviles. La empresa aseguradora recibe eventualmente todos los datos."
+          "text2": "Objetivo: Monitorizar mercancia, agilización de incidencias y posibles litigios.",
+          "text3": "Descripción: Desarrollo de dispositivo de monitorización autónomo para contenedores de carga, fundamentalmente Reefer. El dispositivo es totalmente autónomo y se introduce dentro del contenedor para monitorizar la temperatura y la puerta. El dispositivo almacena la información y la envia siempre que hay conexión disponible a través de redes móviles. La empresa aseguradora recibe eventualmente todos los datos."
         },
         "client4": {
           "name": "Tratamiento y embalaje de Hortofrutícolas",
           "text1": "En colaboración con una empresa de desarrollo",
-          "text2": "Descripción: Centro de procesamiento para productos hortofrutícolas con 34 trabajadores y 6 líneas de producción. Instalación de sensores y señales para el control de la producción.<br/><br/>Nuestro partner se encargó de hacer el desarrollo de las pantallas utilizando nuestros servicios para obtener toda la información necesaria y así desarrollar el programa utilizado por los operarios de la nave. También del desarrollo de informes, avisos, incidencias y sistema de incentivos."
+          "text2": "Objetivo: Incentivos a la producción, automatización de procesos y control de incidencias.",
+          "text3": "Descripción: Centro de procesamiento para productos hortofrutícolas con 34 trabajadores y 6 líneas de producción. Instalación de sensores y señales para el control de la producción.<br/><br/>Nuestro partner se encargó de hacer el desarrollo de las pantallas utilizando nuestros servicios para obtener toda la información necesaria y así desarrollar el programa utilizado por los operarios de la nave. También del desarrollo de informes, avisos, incidencias y sistema de incentivos."
         }
       },
       "tools": {
