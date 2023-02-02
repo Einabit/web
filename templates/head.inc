@@ -35,7 +35,7 @@
           <a title="<%=data.content.menu.about.title%>" href="about.<%=data.lang%>.html"><%=data.content.menu.about.value%></a>
         </div>
         <div class="menu-highlight">
-          <a href="about.<%=data.lang%>.html#contact"><%=data.content.about.contactHeader%></a>
+          <a onclick="toggleNav && toggleNav()" href="about.<%=data.lang%>.html#contact"><%=data.content.about.contactHeader%></a>
         </div>
         <% if (data.lang === "es") { %>
         <div>
@@ -50,12 +50,15 @@
       <script type="text/javascript">
         if (screen.width <= 1280) {
           const navEl = document.querySelector("nav");
+
+          function toggleNav () {
+            navEl.classList.toggle("open");
+          }
+
           navEl.classList.add("phone");
 
           navEl.addEventListener("click", (evt) => {
-            if (evt.target.nodeName === "NAV") {
-              navEl.classList.toggle("open");
-            }
+            if (evt.target.nodeName === "NAV") toggleNav();
           })
         }
       </script>
