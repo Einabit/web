@@ -18,13 +18,11 @@ p {
 .bg-pattern-1 {
   background: url('pattern/patron-01.svg');
   background-repeat: no-repeat;
-  background-position: left;
 }
 
 .bg-pattern-2 {
   background: url('pattern/patron-02.svg');
   background-repeat: no-repeat;
-  background-position: right;
 }
 
 .bg-pattern-home {
@@ -33,6 +31,13 @@ p {
   background-size: cover;
 }
 
+.bg-left {
+  background-position: left;
+}
+
+.bg-right {
+  background-position: right;
+}
 
 .bold {
   font-weight: bold;
