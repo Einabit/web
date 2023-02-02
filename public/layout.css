@@ -27,6 +27,10 @@
   .dflex.wrap.two > *:not(:first-child) {
     margin-left: 20px;
   }
+
+  .desktop-hidden {
+    display: none;
+  }
 }
 
 /*mid desktop*/
