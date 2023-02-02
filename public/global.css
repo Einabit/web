@@ -27,6 +27,13 @@ p {
   background-position: right;
 }
 
+.bg-pattern-home {
+  background: url('pattern/home-patron-banner.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .bold {
   font-weight: bold;
 }
