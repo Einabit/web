@@ -148,7 +148,7 @@ p {
   padding-left: 2rem;
 }
 
-.footer span {
+.footer p {
   color: #FF9900;
 }
 
@@ -194,12 +194,7 @@ custom-highlight h3 {
 custom-highlight a {
   position: absolute;
   top: 5px;
-  right: 10px;
-}
-
-custom-highlight a:after {
-  content: "\2197";
-  font-size: 2rem;
+  right: 8px;
 }
 
 section.footer {
@@ -208,8 +203,8 @@ section.footer {
 
 .footer-logo {
   background-image: url('img/Logo_Einabit_Color.png');
-  background-size: 10rem;
-  padding-left: 12rem;
+  background-size: 9rem;
+  padding-left: 11rem;
   background-repeat: no-repeat;
   background-position-y: center;
 }
@@ -228,6 +223,10 @@ section.footer {
 
 .jct-center {
   justify-content: center;
+}
+
+.vflex {
+  flex-direction: column;
 }
 
 .border-radius {
@@ -291,8 +290,20 @@ a[href^="https"], a[href^="mailto"] {
   text-decoration: none;
 }
 
-.ext img {
-  width: 2rem;
+.icon-github,
+.icon-linkedin {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-size: cover;
+  display: block;
+}
+
+.icon-linkedin {
+  background-image: url('icons/PNG/icono-footer-01.png');
+}
+
+.icon-github {
+  background-image: url('icons/PNG/icono-footer-02.png');
 }
 
 section.header a {

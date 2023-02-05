@@ -2,21 +2,16 @@
     <section class="footer">
       <div class="dflex jct-between">
         <div class="footer-logo">
-          <span>
-            EINABIT LABS S.L. Xixona, 8. 03802 Alcoi/Alacant Spain
-          </span>
-          <br/>
-          <span>
+          <p>
+            EINABIT LABS S.L. Xixona, 8. 03802 Alcoi/Alacant Spain<br/>
             <a class="mailto" href="mailto:info@einabit.com">info@einabit.com</a>
             <span id="cpright-year">&copy; </span>
-          </span>
+          </p>
         </div>
-        <div>
-          <a class="ext" href="https://www.linkedin.com/company/einabit/">
-            <img src="icons/PNG/icono-footer-01.png">
+        <div class="dflex vflex jct-center">
+          <a class="ext icon-linkedin" href="https://www.linkedin.com/company/einabit/">
           </a>
-          <a class="ext" href="https://github.com/orgs/Einabit/repositories">
-            <img src="icons/PNG/icono-footer-02.png">
+          <a class="ext icon-github" href="https://github.com/orgs/Einabit/repositories">
           </a>
         </div>
       </div>
