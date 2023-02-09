@@ -1,5 +1,5 @@
 #!/bin/sh
 
-autoweb build
+einaweb build
 
 aws s3 sync public/ s3://test.einabit.web/
