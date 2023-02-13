@@ -16,7 +16,7 @@
         </logo>
       </a>
       <!-- https://codepen.io/alvarotrigo/pen/MWEJEWG -->
-      <nav onclick="toggleNav && toggleNav()">
+      <div class="nav" onclick="toggleNav()">
         <div>
           <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html"><%=data.content.menu.index.value%></a>
         </div>
@@ -46,16 +46,16 @@
           <a title="Idioma español" href="index.es.html">🇪🇸</a>
         </div>
         <% } %>
-      </nav>
+      </div>
       <script type="text/javascript">
+        const navEl = document.querySelector("div.nav");
+
         if (screen.width <= 1280) {
-          const navEl = document.querySelector("nav");
-
-          function toggleNav () {
-            navEl.classList.toggle("open");
-          }
-
           navEl.classList.add("phone");
+        }
+
+        function toggleNav () {
+          navEl.classList.toggle("open");
         }
       </script>
     </section>
