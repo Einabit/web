@@ -48,27 +48,14 @@
         <% } %>
       </nav>
       <script type="text/javascript">
-        // classList.toggle does not work on iOS
-        function toggleClass(element, toggleClazz) {
-          const value = element.getAttribute("class");
-          const classList = value ? value.trim().split(" "): [];
-          const ndx = classList.indexOf(toggleClazz);
-          if (ndx < 0) {
-            classList.push(toggleClazz);
-          } else {
-            classList.splice(ndx, 1);
-          }
-          element.setAttribute("class", classList.join(" "));
-        }
-
         if (screen.width <= 1280) {
           const navEl = document.querySelector("nav");
 
           function toggleNav () {
-            toggleClass(navEl, "open");
+            navEl.classList.toggle("open");
           }
 
-          toggleClass(navEl, "phone");
+          navEl.classList.add("phone");
 
           navEl.addEventListener("click", (evt) => {
             if (evt.target.nodeName === "NAV") toggleNav();
