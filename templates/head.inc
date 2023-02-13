@@ -16,7 +16,7 @@
         </logo>
       </a>
       <!-- https://codepen.io/alvarotrigo/pen/MWEJEWG -->
-      <nav>
+      <nav onclick="toggleNav && toggleNav()">
         <div>
           <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html"><%=data.content.menu.index.value%></a>
         </div>
@@ -35,7 +35,7 @@
           <a title="<%=data.content.menu.about.title%>" href="about.<%=data.lang%>.html"><%=data.content.menu.about.value%></a>
         </div>
         <div class="menu-highlight">
-          <a onclick="toggleNav && toggleNav()" href="about.<%=data.lang%>.html#contact"><%=data.content.about.contactHeader%></a>
+          <a href="about.<%=data.lang%>.html#contact"><%=data.content.about.contactHeader%></a>
         </div>
         <% if (data.lang === "es") { %>
         <div>
@@ -56,10 +56,6 @@
           }
 
           navEl.classList.add("phone");
-
-          navEl.addEventListener("click", (evt) => {
-            if (evt.target.nodeName === "NAV") toggleNav();
-          })
         }
       </script>
     </section>
