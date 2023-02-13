@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# einaweb build
-# aws s3 sync public/ s3://einabit-website/
+./node_modules/.bin/einaweb build
+aws s3 sync public/ s3://einabit-website/
 
 aws cloudfront list-distributions | \
 jq .DistributionList.Items[].Id | \
@@ -9,22 +9,3 @@ while read ID; do \
   aws cloudfront create-invalidation \
     --distribution-id $(echo $ID | tr -d '"') \
     --paths "/*"; done
-
-
-# while read d; do
-
-# aws cloudfront create-invalidation \
-#       --distribution-id EIDYSQ0ENMD0V \
-#       --paths "/*"
-
-# aws cloudfront create-invalidation \
-#       --distribution-id E3NL70AXPI4N4H \
-#       --paths "/*"
-
-
-
-# result=``
-
-# jq $result
-
-# coger las distros y crear invalidaciones para cada una de ellas

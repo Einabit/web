@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "This repo contains the source for einabit.com/es site",
+  "dependencies": {},
+  "devDependencies": {
+    "einaweb": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "einaweb watch",
+    "build": "einaweb build",
+    "publish": "./sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Einabit/web.git"
+  },
+  "keywords": [],
+  "author": "k1r0s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Einabit/web/issues"
+  },
+  "homepage": "https://github.com/Einabit/web#readme"
+}
