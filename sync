@@ -1,6 +1,6 @@
 #!/bin/sh
 
-./node_modules/.bin/einaweb build
+npm run build
 aws s3 sync public/ s3://einabit-website/
 
 aws cloudfront list-distributions | \
