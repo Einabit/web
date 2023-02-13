@@ -50,7 +50,7 @@
       <script type="text/javascript">
         const navEl = document.querySelector("div.nav");
 
-        if (screen.width <= 1280) {
+        if (window.innerWidth <= 1280) {
           navEl.classList.add("phone");
         }
 
