@@ -2,4 +2,4 @@
 
 einaweb build
 
-aws s3 sync public/ s3://test.einabit.web/
+aws s3 sync public/ s3://einabit-website/
