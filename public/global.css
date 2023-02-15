@@ -278,7 +278,7 @@ section:not(.footer) p {
   line-height: 2;
 }
 
-a[href]:not(.mailto, .ext) {
+.nav a {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;

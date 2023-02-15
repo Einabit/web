@@ -5,6 +5,8 @@
       "index": {
         "mainHeader": "Una vuelta de tuerca al \"<i>Internet de las Cosas</i>\"",
         "mainSub": "Einabit es una empresa que hace realidad tus proyectos de IoT a gran escala. Nos encargamos de todo lo relativo al mundo IoT para que tú solo tengas que preocuparte de desarrollar soluciones para tus clientes.",
+        "codeheader": "¿Quieres probarlo ahora mismo?",
+        "codedesc": "Mientras nosotros realizamos la instalación y recogida de datos tú puedes integrar tus soluciones con nuestros sistemas. Disponemos de herramientas Open Source que permiten emular una instalación real para que puedas probar e incluso desarrollar software. <a href=\"https://github.com/Einabit/client.js/blob/main/README.es.md#primeros-pasos\">Pulsa aquí para empezar!</a>",
         "header1": "Un producto para desarrolladores",
         "p1": "A diferencia de otras empresas, nosotros ofrecemos un producto <b>compatible con entornos de desarrollo modernos</b>. Nuestra pasarela de datos está alojada en servidores de alta disponibilidad y acorde con los últimos estándares.",
         "header2": "Digitalizamos tu negocio",
@@ -136,6 +138,8 @@
         "mainSub": "Einabit is a company that allows to easily develop your IoT projects. We deal with electronics and IoT devices so you only have to care about the development of the product for your clients.",
         "header1": "A product for developers",
         "p1": "Unlike other companies, we offer a product <b>compatible with modern environments and tools</b>. Our API is hosted in the best data centers that ensures high availability.",
+        "codeheader": "Try it now",
+        "codedesc": "While we do the installation you can integrate your software with our systems. We provide you with Open Source tools that emulate our real systems for you to try them or even code solutions. <a href=\"https://github.com/Einabit/client.js#getting-started\">Click here to start!</a>",
         "header2": "We digitalize your business",
         "p2": "Our system is compatible with <b>any kind of sensor or signal</b> whether is related to manufacturing, transport, meteorology, health, security.",
         "header3": "We care about everything",
