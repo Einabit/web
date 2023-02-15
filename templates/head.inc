@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%=data.lang%>">
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="<%=data.content.head[file].description%>">
@@ -13,7 +13,7 @@
   </head>
   <body>
     <section class="primary header dflex">
-      <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html">
+      <a title="<%=data.content.menu.index.title%>" href="<%=data.lang%>-iot-as-service">
         <logo>
           <img src="img/Logo_Einabit_Negativo.png" alt="Einabit Logo"/>
         </logo>
@@ -21,32 +21,32 @@
       <!-- https://codepen.io/alvarotrigo/pen/MWEJEWG -->
       <div class="nav" onclick="toggleNav()">
         <div>
-          <a title="<%=data.content.menu.index.title%>" href="index.<%=data.lang%>.html"><%=data.content.menu.index.value%></a>
+          <a title="<%=data.content.menu.index.title%>" href="<%=data.lang%>-iot-as-service"><%=data.content.menu.index.value%></a>
         </div>
         <% if (data.lang === "es") { %>
         <div>
-          <a title="<%=data.content.menu.industry.title%>" href="industry.es.html"><%=data.content.menu.industry.value%></a>
+          <a title="<%=data.content.menu.industry.title%>" href="es-digitalization-industry-4-0"><%=data.content.menu.industry.value%></a>
         </div>
         <% } %>
         <div>
-          <a title="<%=data.content.menu.projects.title%>" href="projects.<%=data.lang%>.html"><%=data.content.menu.projects.value%></a>
+          <a title="<%=data.content.menu.projects.title%>" href="<%=data.lang%>-relevant-projects"><%=data.content.menu.projects.value%></a>
         </div>
         <div>
-          <a title="<%=data.content.menu.tools.title%>" href="tools.<%=data.lang%>.html"><%=data.content.menu.tools.value%></a>
+          <a title="<%=data.content.menu.tools.title%>" href="<%=data.lang%>-tools-for-developers"><%=data.content.menu.tools.value%></a>
         </div>
         <div>
-          <a title="<%=data.content.menu.about.title%>" href="about.<%=data.lang%>.html"><%=data.content.menu.about.value%></a>
+          <a title="<%=data.content.menu.about.title%>" href="<%=data.lang%>-our-company"><%=data.content.menu.about.value%></a>
         </div>
         <div class="menu-highlight">
-          <a href="about.<%=data.lang%>.html#contact"><%=data.content.about.contactHeader%></a>
+          <a href="<%=data.lang%>-our-company#contact"><%=data.content.about.contactHeader%></a>
         </div>
         <% if (data.lang === "es") { %>
         <div>
-          <a title="English language" href="index.en.html">🇬🇧</a>
+          <a title="English language" href="en-iot-as-service">🇬🇧</a>
         </div>
         <% } else if (data.lang === "en") { %>
         <div>
-          <a title="Idioma español" href="index.es.html">🇪🇸</a>
+          <a title="Idioma español" href="es-iot-as-service">🇪🇸</a>
         </div>
         <% } %>
       </div>

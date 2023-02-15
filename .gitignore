@@ -1,6 +1,8 @@
-public/*.html
+public/en-*
+public/es-*
 public/video
 tasks
 web_assets/
 proposals/
 node_modules/
+package-lock.json
