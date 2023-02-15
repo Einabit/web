@@ -284,7 +284,7 @@ section:not(.footer) p {
   font-weight: bold;
 }
 
-a[href^="https"], a[href^="mailto"] {
+a[href^="en"], a[href^="es"], a[href^="https"], a[href^="mailto"] {
   color: #FF9900;
   font-weight: bold;
   text-decoration: none;
