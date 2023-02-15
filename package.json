@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "einaweb watch FIX_EMPTY_EXTENSION",
     "build": "einaweb build",
-    "publish": "./sync"
+    "sync": "./sync"
   },
   "repository": {
     "type": "git",

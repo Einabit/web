@@ -26,7 +26,15 @@
 <section class="vertical-space">
   <h2 class="txt-center"><%-data.content.index.codeheader%></h2>
   <script src="https://gist.github.com/k1r0s/84efaa0d9bf511d13ccef5909cf0fa44.js"></script>
-  <p><%-data.content.index.codedesc%></p>
+  <p class="txt-center"><%-data.content.index.codedesc%></p>
+  <div class="dflex jct-center">
+    <custom-cta onclick="location.href = 'mailto:info@einabit.com'"><%=data.content.head.ctademo%></custom-cta>
+  </div>
+</section>
+<section class="feature-wide gray bg-pattern-2 bg-right">
+  <h2><%-data.content.index.header4%></h2>
+  <p><%-data.content.index.p4a%></p>
+  <p><%-data.content.index.p4b%></p>
 </section>
 <section class="dflex jct-between vertical-space feature-icon">
   <div>
@@ -57,10 +65,5 @@
     <p><%-data.content.index.p3%></p>
   </div>
   <img class="mobile-hidden w8rem" src="icons/SVG/icono-03.svg"/>
-</section>
-<section class="feature-wide gray bg-pattern-2 bg-right">
-  <h2><%-data.content.index.header4%></h2>
-  <p><%-data.content.index.p4a%></p>
-  <p><%-data.content.index.p4b%></p>
 </section>
 <%-include("foot.inc")%>
