@@ -1,7 +1,22 @@
 #!/bin/sh
 
 npm run build
-aws s3 sync public/ s3://einabit-website/
+
+aws s3 rm s3://einabit-website --recursive
+
+find public/ | while read file; do
+  if [ -f $file ]
+  then
+    remote=`echo "$file" | sed -e "s/public/einabit-website/"`
+    cmd="aws s3 cp $file s3://$remote"
+    echo "$file" | grep -qE "\..+$"
+    if [ $? -eq 1 ]
+    then
+      cmd="$cmd --content-type "text/html""
+    fi
+    sh -c "$cmd"
+  fi
+done
 
 aws cloudfront list-distributions | \
 jq .DistributionList.Items[].Id | \
