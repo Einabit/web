@@ -225,6 +225,10 @@ section.footer {
   justify-content: center;
 }
 
+.jct-around {
+  justify-content: space-around;
+}
+
 .vflex {
   flex-direction: column;
 }

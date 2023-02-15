@@ -8,7 +8,7 @@
             <span id="cpright-year">&copy; </span>
           </p>
         </div>
-        <div class="dflex vflex jct-center">
+        <div class="dflex vflex jct-around">
           <a class="ext icon-linkedin" href="https://www.linkedin.com/company/einabit/">
           </a>
           <a class="ext icon-github" href="https://github.com/orgs/Einabit/repositories">

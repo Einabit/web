@@ -125,9 +125,9 @@
         "mainHeader": "Herramientas",
         "mainSub": "Ponemos a tu disposición herramientas gratuitas y de código abierto.",
         "sandbox": "Entorno de pruebas para mockear la API de Einabit.",
-        "clientjs": "Librería para conectarse a los servicios de Einabit para projectos de Nodejs.",
-        "clientpy": "Librería para conectarse a los servicios de Einabit para projectos de Python.",
-        "clientjava": "Librería para conectarse a los servicios de Einabit para projectos de Java."
+        "clientjs": "Librería para conectarse a los servicios de Einabit para proyectos de Nodejs.",
+        "clientpy": "Librería para conectarse a los servicios de Einabit para proyectos de Python.",
+        "clientjava": "Librería para conectarse a los servicios de Einabit para proyectos de Java."
       }
     }
   },
