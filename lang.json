@@ -2,6 +2,13 @@
   {
     "lang": "es",
     "content": {
+      "url": {
+        "index": "integracion-iot-como-servicio",
+        "industry": "digitalizacion-industria-4-0",
+        "projects": "proyectos-realizados",
+        "tools": "herramientas-desarrollo",
+        "about": "contacto-empresa"
+      },
       "index": {
         "mainHeader": "Una vuelta de tuerca al \"<i>Internet de las Cosas</i>\"",
         "mainSub": "Einabit es una empresa que hace realidad tus proyectos de IoT a gran escala. Nos encargamos de todo lo relativo al mundo IoT para que tú solo tengas que preocuparte de desarrollar soluciones para tus clientes.",
@@ -18,27 +25,27 @@
         "p4b": "El mundo IoT requiere de conocimientos de hardware, electrónica y otra serie de aptitudes relacionadas con el mundo de las instalaciones industriales. Es por eso que hasta ahora solo empresas con abundantes recursos pueden abordar la transformación digital y esto es una grave desventaja para las PYMEs."
       },
       "head": {
-        "es-iot-as-service": {
+        "index": {
           "title": "Einabit, hacemos posibles tus proyectos de IoT",
           "description": "Einabit es una empresa que te permite externalizar la gestión del 'Internet Of Things' para que únicamente tengas que preocuparte por desarrollar tu solución.",
           "keywords": "Software, IoT, Externalizar, Smart City, Internet de las cosas"
         },
-        "es-our-company": {
+        "about": {
           "title": "Einabit, conoce nuestro equipo y experiencia",
           "description": "Einabit te ofrece las mejores herramientas para trabajar en integraciones con IoT. Conoce nuestro equipo y experiencia. Contáctanos para cualquier consulta en info@einabit.com",
           "keywords": "Expertos, IoT, Software, Empresa, Linkedin"
         },
-        "es-digitalization-industry-4-0": {
+        "industry": {
           "title": "Einabit, la nueva revolución industrial",
           "description": "Einabit es compañero necesario de la digitalización de la industria. Ponemos soluciones al alcance de las PYMEs para que nadie se quede atrás.",
           "keywords": "Industria 4.0, Digitalización, IoT, Empresa, Integración"
         },
-        "es-relevant-projects": {
+        "projects": {
           "title": "Einabit, projectos de sensórica en industria, transporte, alimentación, etc",
           "description": "Einabit te permite integrar tu software con cualquier proceso automatizado y ofrecer soluciones a tus clientes.",
           "keywords": "IoT, Transporte, Manufactura, Logística"
         },
-        "es-tools-for-developers": {
+        "tools": {
           "title": "Einabit, herramientas para desarrolladores, APIs, SDKs, Javascript, Java, Python",
           "description": "Einabit pone a tu alcance herramientas Open Source para que puedas desarrollar tus soluciones paralelamente mientras nosotros hacemos la instalación de los sistemas.",
           "keywords": "IoT, SDK, API, Código Abierto, Github, Java, Docker, Javascript, Python"
@@ -134,6 +141,13 @@
   {
     "lang": "en",
     "content": {
+      "url": {
+        "index": "iot-integration-as-service",
+        "error": "error-page",
+        "projects": "relevant-projects",
+        "tools": "tools-for-developers",
+        "about": "company-contact"
+      },
       "index": {
         "mainHeader": "Another twist to the \"<i>Internet Of Things</i>\"",
         "mainSub": "Einabit is a company that allows to easily develop your IoT projects. We deal with electronics and IoT devices so you only have to care about the development of the product for your clients.",
@@ -150,27 +164,27 @@
         "p4b": "Managing IoT requires hardware, electronics, networks and other skills related with industrial installations. Thats why only big companies are able to face the digital challenge. We want everyone to have a chance in the ongoing revolution."
       },
       "head": {
-        "en-iot-as-service": {
+        "index": {
           "title": "Einabit, the right way to do IoT projects",
           "description": "Einabit it's a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
           "keywords": "IoT, Internet of Things, Business, Externalize, Partner"
         },
-        "en-error": {
+        "error": {
           "title": "Einabit, the right way to do IoT projects",
           "description": "Einabit it's a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
           "keywords": "IoT, Internet of Things, Business, Externalize, Partner"
         },
-        "en-our-company": {
+        "about": {
           "title": "Einabit, meet our team and experience",
           "description": "Einabit offers you the best tools to integrate with IoT projects. Meet our team and experience. Don't hesitate to contact us info@einabit.com",
           "keywords": "Experts, IoT, Software, Business, Partner, Linkedin"
         },
-        "en-relevant-projects": {
+        "projects": {
           "title": "Einabit, sensor integration for industry, transport and production of any kind",
           "description": "Einabit easily integrates with any automatic process and retrieves all information for you to develop the solution.",
           "keywords": "IoT, Freight, Manufacture, Industry, Logistics"
         },
-        "en-tools-for-developers": {
+        "tools": {
           "title": "Einabit, developer tools, APIs, SDKs, Javascript, Java, Python",
           "description": "Einabit gives you Open Source tools for you to asynchronously develop your solutions while we install and integrate with your client.",
           "keywords": "IoT, SDK, API, Open Source, Github, Java, Docker, Javascript, Python"

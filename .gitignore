@@ -1,6 +1,15 @@
-public/en-*
-public/es-*
-public/video
+# ignore everything
+public/*
+
+# whitelist certain directories
+!public/icons
+!public/css
+!public/img
+!public/pattern
+!public/profile
+!public/reports
+!public/thumb
+
 tasks
 web_assets/
 proposals/

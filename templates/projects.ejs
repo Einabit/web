@@ -1,6 +1,6 @@
 <%#einaweb:require lang.json%>
 <%#einaweb:each %>
-<%#einaweb:name $lang-relevant-projects%>
+<%#einaweb:name `${data.content.url[file]}`%>
 <%-include("head.inc", data)%>
 <section class="push-top">
   <h1 class="txt-center"><%=data.content.projects.mainHeader%></h1>
