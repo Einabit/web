@@ -26,7 +26,20 @@
         "p3": "A diferencia de la competencia con nosotros puedes empezar a trabajar ya mismo usando las herramientas que te proporcionamos. Empieza a desarrollar tus soluciones sin esperar a nadie. Nuestra pasarela de datos es <b>transparente, fácil de usar y libre</b>.",
         "header4": "Te ayudamos a llegar más lejos",
         "p4a": "Sabemos mejor que nadie lo complicado que son los proyectos de software. Si a todo esto añadimos tener que mantener equipos electrónicos la complejidad de nuestro proyecto se incrementa exponencialmente.",
-        "p4b": "El mundo IoT requiere de conocimientos de hardware, electrónica y otra serie de aptitudes relacionadas con el mundo de las instalaciones industriales. Es por eso que hasta ahora solo empresas con abundantes recursos pueden abordar la transformación digital y esto es una grave desventaja para las PYMEs."
+        "p4b": "El mundo IoT requiere de conocimientos de hardware, electrónica y otra serie de aptitudes relacionadas con el mundo de las instalaciones industriales. Es por eso que hasta ahora solo empresas con abundantes recursos pueden abordar la transformación digital y esto es una grave desventaja para las PYMEs.",
+        "timeline": {
+          "header": "Qué hacemos, cómo trabajamos, paso a paso*",
+          "cite": "*Recuerda que puedes integrar tu software con nuestro sistema <b>en cualquier momento</b> de este proceso.",
+          "items": [
+            "Tu cliente o tu empresa necesita recoger datos de un proceso, señal o sensor.",
+            "Necesitas integrar esos datos con un software o desarrollar tu propia solución.",
+            "Te pones en contacto con nosotros y concertamos una cita para estudiar tu caso.",
+            "Realizamos un presupuesto de instalación y una estimación de coste mensual.",
+            "Tras aceptar el presupuesto acordamos una fecha de instalación.",
+            "Al finalizar la instalación te entregamos los accesos de la API.",
+            "Ahora puedes obtener obtener las lecturas reales de tus equipos."
+          ]
+        }
       },
       "head": {
         "index": {
@@ -170,7 +183,20 @@
         "p3": "Unlike other solutions, by using our systems you can start integrate your solution right now using free tools that we provide. Start coding without waiting. Our API is <b>transparent, easy to use and free</b>.",
         "header4": "All the way with you",
         "p4a": "We know that software development is quite complicated, managing IoT devices might be hard as well. So we better work together to overcome this challenge so you only have to care about development.",
-        "p4b": "Managing IoT requires hardware, electronics, networks and other skills related with industrial installations. Thats why only big companies are able to face the digital challenge. We want everyone to have a chance in the ongoing revolution."
+        "p4b": "Managing IoT requires hardware, electronics, networks and other skills related with industrial installations. Thats why only big companies are able to face the digital challenge. We want everyone to have a chance in the ongoing revolution.",
+        "timeline": {
+          "header": "What we do, how we work, step by step*",
+          "cite": "*Keep in mind that <b>you can integrate your software anytime</b> during this process.",
+          "items": [
+            "Your client or your company needs to retrieve data from a process, signal or sensor.",
+            "You need to integrate this data with an existing software or develop your own solution.",
+            "After you've contacted us we schedule a meeting to study your case.",
+            "We give you a priced quotation for the installation and forecasted monthly cost.",
+            "After accepting the quotation we schedule the installation process.",
+            "When the installation finishes we give you the access key for the API.",
+            "Now you can retrieve real data from your devices."
+          ]
+        }
       },
       "head": {
         "index": {
@@ -201,7 +227,7 @@
         "mainHeader": "We make possible your IoT projects",
         "cta": "Contact us",
         "ctademo": "Ask for a demo",
-        "ctacontract": "Price quote"
+        "ctacontract": "get a quoted price"
       },
       "menu": {
         "index": {

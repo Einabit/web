@@ -31,6 +31,15 @@
     <custom-cta onclick="location.href = 'mailto:info@einabit.com?subject=<%=data.content.subject.contract%>'"><%=data.content.head.ctacontract%></custom-cta>
   </div>
 </section>
+<section>
+  <h2 class="txt-center"><%=data.content.index.timeline.header%></h2>
+  <cite><%-data.content.index.timeline.cite%></cite>
+  <ol>
+    <% data.content.index.timeline.items.forEach(item => { %>
+      <li><%=item%></li>
+    <% }); %>
+  </ol>
+</section>
 <section class="feature-wide gray bg-pattern-2 bg-right">
   <h2><%-data.content.index.header4%></h2>
   <p><%-data.content.index.p4a%></p>
