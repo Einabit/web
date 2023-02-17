@@ -11,7 +11,7 @@ h1 {
   font-size: 3rem;
 }
 
-p {
+p, li {
   font-size: 1.2rem;
 }
 
@@ -438,4 +438,25 @@ div.nav.phone:not(.open):before {
   content: "\2630";
   font-size: 3rem;
   color: white;
+}
+
+ol {
+    counter-reset: li;
+}
+
+li {
+    position: relative;
+    list-style-type: none;
+    margin: 1.8rem 0;
+}
+
+li:before {
+    position: absolute;
+    left: -1.8rem;
+    top: -0.8rem;
+    content: counter(li);
+    counter-increment: li;
+    font-size: 2.2rem;
+    color: #FF9900;
+    font-weight: bold;
 }
