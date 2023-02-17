@@ -18,7 +18,6 @@
           <img src="img/Logo_Einabit_Negativo.png" alt="Einabit Logo"/>
         </logo>
       </a>
-      <!-- https://codepen.io/alvarotrigo/pen/MWEJEWG -->
       <div class="nav" onclick="toggleNav()">
         <div>
           <a title="<%=data.content.menu.index.title%>" href="<%=data.content.url.index%>"><%=data.content.menu.index.value%></a>

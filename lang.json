@@ -151,8 +151,11 @@
         "mainSub": "Ponemos a tu disposición herramientas gratuitas y de código abierto.",
         "sandbox": "Entorno de pruebas para mockear la API de Einabit.",
         "clientjs": "Librería para conectarse a los servicios de Einabit para proyectos de Nodejs.",
+        "underDevelopment": "En desarrollo...",
         "clientpy": "Librería para conectarse a los servicios de Einabit para proyectos de Python.",
-        "clientjava": "Librería para conectarse a los servicios de Einabit para proyectos de Java."
+        "clientjava": "Librería para conectarse a los servicios de Einabit para proyectos de Java.",
+        "nodejsSample1": "Monitorización de la calidad del aire (Nodejs)",
+        "nodejsSample2": "Histórico de estados de una máquina (Nodejs)"
       }
     }
   },
