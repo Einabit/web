@@ -16,17 +16,17 @@ p {
 }
 
 .bg-pattern-1 {
-  background: url('pattern/patron-01.svg');
+  background: url('../pattern/patron-01.svg');
   background-repeat: no-repeat;
 }
 
 .bg-pattern-2 {
-  background: url('pattern/patron-02.svg');
+  background: url('../pattern/patron-02.svg');
   background-repeat: no-repeat;
 }
 
 .bg-pattern-home {
-  background: url('pattern/home-patron-banner.svg');
+  background: url('../pattern/home-patron-banner.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -201,14 +201,6 @@ section.footer {
   margin-bottom: 2rem;
 }
 
-.footer-logo {
-  background-image: url('img/Logo_Einabit_Color.png');
-  background-size: 9rem;
-  padding-left: 11rem;
-  background-repeat: no-repeat;
-  background-position-y: center;
-}
-
 .shadow {
   box-shadow: 2px 2px 10px #8A8A8A;
 }
@@ -225,8 +217,8 @@ section.footer {
   justify-content: center;
 }
 
-.jct-around {
-  justify-content: space-around;
+.jct-evenly {
+  justify-content: space-evenly;
 }
 
 .vflex {
@@ -288,7 +280,7 @@ section:not(.footer) p {
   font-weight: bold;
 }
 
-a[href^="en"], a[href^="es"], a[href^="https"], a[href^="mailto"] {
+a {
   color: #FF9900;
   font-weight: bold;
   text-decoration: none;
@@ -303,11 +295,11 @@ a[href^="en"], a[href^="es"], a[href^="https"], a[href^="mailto"] {
 }
 
 .icon-linkedin {
-  background-image: url('icons/PNG/icono-footer-01.png');
+  background-image: url('../icons/PNG/icono-footer-01.png');
 }
 
 .icon-github {
-  background-image: url('icons/PNG/icono-footer-02.png');
+  background-image: url('../icons/PNG/icono-footer-02.png');
 }
 
 section.header a {

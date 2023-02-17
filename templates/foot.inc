@@ -3,12 +3,12 @@
       <div class="dflex jct-between">
         <div class="footer-logo">
           <p>
-            EINABIT LABS S.L. Xixona, 8. 03802 Alcoi/Alacant Spain<br/>
-            <a class="mailto" href="mailto:info@einabit.com">info@einabit.com</a>
-            <span id="cpright-year">&copy; </span>
+            <a href="tel:+34633423169">📞 +34 633 42 31 69</a><br />
+            <a class="mailto" href="mailto:info@einabit.com">✉️ info@einabit.com</a><br/>
+            EINABIT LABS S.L. <span id="cpright-year">&copy; </span>
           </p>
         </div>
-        <div class="dflex vflex jct-around">
+        <div class="dflex vflex jct-evenly">
           <a class="ext icon-linkedin" href="https://www.linkedin.com/company/einabit/">
           </a>
           <a class="ext icon-github" href="https://github.com/orgs/Einabit/repositories">

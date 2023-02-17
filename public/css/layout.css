@@ -31,6 +31,14 @@
   .desktop-hidden {
     display: none;
   }
+
+  .footer-logo {
+    background-image: url('../img/Logo_Einabit_Color.png');
+    background-size: 9rem;
+    padding-left: 11rem;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
 }
 
 /*mid desktop*/
