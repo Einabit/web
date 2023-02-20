@@ -37,7 +37,7 @@
           <a title="<%=data.content.menu.about.title%>" href="<%=data.content.url.about%>"><%=data.content.menu.about.value%></a>
         </div>
         <div class="menu-highlight">
-          <a href="<%=data.lang%>-our-company#contact"><%=data.content.about.contactHeader%></a>
+          <a href="<%=data.content.url.about%>#contact"><%=data.content.about.contactHeader%></a>
         </div>
         <% if (data.lang === "es") { %>
         <div>

@@ -25,7 +25,7 @@
         "header3": "No pierdas tiempo",
         "p3": "A diferencia de la competencia con nosotros puedes empezar a trabajar ya mismo usando las herramientas que te proporcionamos. Empieza a desarrollar tus soluciones sin esperar a nadie. Nuestra pasarela de datos es <b>transparente, fácil de usar y libre</b>.",
         "header4": "Te ayudamos a llegar más lejos",
-        "p4a": "Sabemos mejor que nadie lo complicado que son los proyectos de software. Si a todo esto añadimos tener que mantener equipos electrónicos la complejidad de nuestro proyecto se incrementa exponencialmente.",
+        "p4a": "Sabemos mejor que nadie lo complicado que son los proyectos de software. Si a todo esto añadimos tener que mantener equipos electrónicos, la complejidad de nuestro proyecto se incrementa exponencialmente.",
         "p4b": "El mundo IoT requiere de conocimientos de hardware, electrónica y otra serie de aptitudes relacionadas con el mundo de las instalaciones industriales. Es por eso que hasta ahora solo empresas con abundantes recursos pueden abordar la transformación digital y esto es una grave desventaja para las PYMEs.",
         "timeline": {
           "header": "Qué hacemos, cómo trabajamos, paso a paso*",
@@ -37,7 +37,7 @@
             "Realizamos un presupuesto de instalación y una estimación de coste mensual.",
             "Tras aceptar el presupuesto acordamos una fecha de instalación.",
             "Al finalizar la instalación te entregamos los accesos de la API.",
-            "Ahora puedes obtener obtener las lecturas reales de tus equipos."
+            "Ahora puedes obtener las lecturas reales de tus equipos."
           ]
         }
       },
