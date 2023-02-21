@@ -5,6 +5,7 @@
     <meta name="description" content="<%=data.content.head[file].description%>">
     <meta name="keywords" content="<%=data.content.head[file].keywords%>">
     <meta name="author" content="Einabit">
+    <base href="https://einabit.com/" />
     <title><%=data.content.head[file].title%></title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/layout.css">
