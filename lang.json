@@ -175,7 +175,7 @@
       },
       "index": {
         "mainHeader": "Another twist to the \"<i>Internet Of Things</i>\"",
-        "mainSub": "Our team takes full care on the <b>whole process of data retrieval and ingestion</b>. We install sensors and integrate against your client's process, we retrieve, digest and store all data, and finally we provide you an API to fetch all the information in the way you decide so you only care about your business.",
+        "mainSub": "Our team takes full care on the <b>whole process of data retrieval and ingestion</b>. We install sensors and integrate with your client's process, we retrieve, digest and store all data, and finally we provide you an API to fetch all the information in the way you decide so you only care about your business.",
         "header1": "A product for developers",
         "p1": "Unlike other companies, we offer a product <b>compatible with modern environments and tools</b>. Our API is hosted in the best data centers that ensures high availability.",
         "codeheader": "Try it now",
@@ -204,12 +204,12 @@
       "head": {
         "index": {
           "title": "Einabit, the right way to do IoT projects",
-          "description": "Einabit it's a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
+          "description": "Einabit is a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
           "keywords": "IoT, Internet of Things, Business, Externalize, Partner"
         },
         "error": {
           "title": "Einabit, the right way to do IoT projects",
-          "description": "Einabit it's a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
+          "description": "Einabit is a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
           "keywords": "IoT, Internet of Things, Business, Externalize, Partner"
         },
         "about": {
