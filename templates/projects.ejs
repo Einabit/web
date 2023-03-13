@@ -1,44 +1,44 @@
-<%#einaweb:require lang.json%>
-<%#einaweb:each %>
-<%#einaweb:name `${data.content.url[file]}`%>
-<%-include("head.inc", data)%>
+<%#einaweb:load lang lang.json%>
+<%#einaweb:each lang%>
+<%#einaweb:name `${$each.content.url[$file]}`%>
+<%-include("head.inc")%>
 <section class="push-top">
-  <h1 class="txt-center"><%=data.content.projects.mainHeader%></h1>
+  <h1 class="txt-center"><%=$each.content.projects.mainHeader%></h1>
 </section>
 <section class="project vertical-space bg-pattern-2 bg-right">
   <custom-highlight class="shadow border-radius">
-    <h3><%=data.content.projects.client1.name%></h3>
+    <h3><%=$each.content.projects.client1.name%></h3>
     <span><img src="icons/projects/client1.png" /></span>
-    <p><%=data.content.projects.client1.text1%></p>
-    <p class="bold"><%-data.content.projects.client1.text2%></p>
-    <p><%-data.content.projects.client1.text3%></p>
+    <p><%=$each.content.projects.client1.text1%></p>
+    <p class="bold"><%-$each.content.projects.client1.text2%></p>
+    <p><%-$each.content.projects.client1.text3%></p>
   </custom-highlight>
 </section>
 <section class="project vertical-space">
   <custom-highlight class="shadow border-radius">
-    <h3><%=data.content.projects.client2.name%></h3>
+    <h3><%=$each.content.projects.client2.name%></h3>
     <span><img src="icons/projects/client2.png" /></span>
-    <p><%=data.content.projects.client2.text1%></p>
-    <p class="bold"><%=data.content.projects.client2.text2%></p>
-    <p><%-data.content.projects.client2.text3%></p>
+    <p><%=$each.content.projects.client2.text1%></p>
+    <p class="bold"><%=$each.content.projects.client2.text2%></p>
+    <p><%-$each.content.projects.client2.text3%></p>
   </custom-highlight>
 </section>
 <section class="project vertical-space bg-pattern-2 bg-right">
   <custom-highlight class="shadow border-radius">
-    <h3><%=data.content.projects.client3.name%></h3>
+    <h3><%=$each.content.projects.client3.name%></h3>
     <span><img src="icons/projects/client3.png" /></span>
-    <p><%=data.content.projects.client3.text1%></p>
-    <p class="bold"><%=data.content.projects.client3.text2%></p>
-    <p><%-data.content.projects.client3.text3%></p>
+    <p><%=$each.content.projects.client3.text1%></p>
+    <p class="bold"><%=$each.content.projects.client3.text2%></p>
+    <p><%-$each.content.projects.client3.text3%></p>
   </custom-highlight>
 </section>
 <section class="project vertical-space">
   <custom-highlight class="shadow border-radius">
-    <h3><%=data.content.projects.client4.name%></h3>
+    <h3><%=$each.content.projects.client4.name%></h3>
     <span><img src="icons/projects/client4.png" /></span>
-    <p><%=data.content.projects.client4.text1%></p>
-    <p class="bold"><%-data.content.projects.client4.text2%></p>
-    <p><%-data.content.projects.client4.text3%></p>
+    <p><%=$each.content.projects.client4.text1%></p>
+    <p class="bold"><%-$each.content.projects.client4.text2%></p>
+    <p><%-$each.content.projects.client4.text3%></p>
   </custom-highlight>
 </section>
 <%-include("foot.inc")%>

@@ -9,6 +9,7 @@
       "url": {
         "index": "integracion-iot-como-servicio",
         "industry": "digitalizacion-industria-4-0",
+        "error": "error-page",
         "projects": "proyectos-realizados",
         "tools": "herramientas-desarrollo",
         "about": "contacto-empresa"
@@ -51,6 +52,11 @@
           "title": "Einabit, conoce nuestro equipo y experiencia",
           "description": "Einabit te ofrece las mejores herramientas para trabajar en integraciones con IoT. Conoce nuestro equipo y experiencia. Contáctanos para cualquier consulta en info@einabit.com",
           "keywords": "Expertos, IoT, Software, Empresa, Linkedin"
+        },
+        "error": {
+          "title": "Einabit, hacemos posibles tus proyectos de IoT",
+          "description": "Einabit es una empresa que te permite externalizar la gestión del 'Internet Of Things' para que únicamente tengas que preocuparte por desarrollar tu solución.",
+          "keywords": "Software, IoT, Externalizar, Smart City, Internet de las cosas"
         },
         "industry": {
           "title": "Einabit, la nueva revolución industrial",
@@ -168,7 +174,6 @@
       },
       "url": {
         "index": "iot-integration-as-service",
-        "error": "error-page",
         "projects": "relevant-projects",
         "tools": "tools-for-developers",
         "about": "company-contact"
@@ -203,11 +208,6 @@
       },
       "head": {
         "index": {
-          "title": "Einabit, the right way to do IoT projects",
-          "description": "Einabit is a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
-          "keywords": "IoT, Internet of Things, Business, Externalize, Partner"
-        },
-        "error": {
           "title": "Einabit, the right way to do IoT projects",
           "description": "Einabit is a company that allows you to externalize 'Internet Of Things' workflows so you only have to deal with software development.",
           "keywords": "IoT, Internet of Things, Business, Externalize, Partner"

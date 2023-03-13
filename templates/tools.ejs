@@ -1,14 +1,14 @@
-<%#einaweb:require lang.json%>
-<%#einaweb:each %>
-<%#einaweb:name `${data.content.url[file]}`%>
-<%-include("head.inc", data)%>
+<%#einaweb:load lang lang.json%>
+<%#einaweb:each lang%>
+<%#einaweb:name `${$each.content.url[$file]}`%>
+<%-include("head.inc")%>
 <section class="push-top bg-pattern-1">
-  <h1 class="txt-center"><%=data.content.tools.mainHeader%></h1>
+  <h1 class="txt-center"><%=$each.content.tools.mainHeader%></h1>
   <custom-highlight class="tool-title push-bottom shadow border-radius">
     <div class="dflex jct-center">
       <img src="icons/tools/github.svg" />
     </div>
-    <p class="txt-center"><%=data.content.tools.mainSub%></p>
+    <p class="txt-center"><%=$each.content.tools.mainSub%></p>
   </custom-highlight>
   <div class="dflex wrap two">
     <custom-highlight class="tool-feature push-bottom shadow border-radius">
@@ -16,27 +16,27 @@
         <img src="icons/tools/docker.svg" />
       </div>
       <a class="icon-github" href="https://github.com/Einabit/sandbox"></a>
-      <p class="txt-center">Docker Sandbox: <%=data.content.tools.sandbox%></p>
+      <p class="txt-center">Docker Sandbox: <%=$each.content.tools.sandbox%></p>
     </custom-highlight>
     <custom-highlight class="tool-feature push-bottom shadow border-radius">
       <div class="dflex jct-center">
         <img src="icons/tools/nodejs.svg" />
       </div>
       <a class="icon-github" href="https://github.com/Einabit/client.js"></a>
-      <p class="txt-center">Node SDK: <%=data.content.tools.clientjs%></p>
+      <p class="txt-center">Node SDK: <%=$each.content.tools.clientjs%></p>
     </custom-highlight>
   </div>
 </section>
 <section>
-  <h2 class="txt-center"><%=data.content.tools.nodejsSample1%></h2>
+  <h2 class="txt-center"><%=$each.content.tools.nodejsSample1%></h2>
   <script src="https://gist.github.com/k1r0s/fed21798b1f39185ccc8696de4112886.js"></script>
 </section>
 <section>
-  <h2 class="txt-center"><%=data.content.tools.nodejsSample2%></h2>
+  <h2 class="txt-center"><%=$each.content.tools.nodejsSample2%></h2>
   <script src="https://gist.github.com/k1r0s/a90be0e059f9073405140390c49ab959.js"></script>
 </section>
 <section>
-  <h2 class="txt-center"><%=data.content.tools.underDevelopment%></h2>
+  <h2 class="txt-center"><%=$each.content.tools.underDevelopment%></h2>
 </section>
 <section class="bg-pattern-2 bg-right">
   <div class="dflex wrap two">
@@ -44,13 +44,13 @@
       <div class="dflex jct-center">
         <img src="icons/tools/python.svg" />
       </div>
-      <p class="txt-center">Python SDK: <%=data.content.tools.clientpy%></p>
+      <p class="txt-center">Python SDK: <%=$each.content.tools.clientpy%></p>
     </custom-highlight>
     <custom-highlight class="tool-feature push-bottom shadow border-radius">
       <div class="dflex jct-center">
         <img src="icons/tools/java.svg" />
       </div>
-      <p class="txt-center">Java SDK: <%=data.content.tools.clientjava%></p>
+      <p class="txt-center">Java SDK: <%=$each.content.tools.clientjava%></p>
     </custom-highlight>
   </div>
 </section>

@@ -4,7 +4,7 @@
   "description": "This repo contains the source for einabit.com/es site",
   "dependencies": {},
   "devDependencies": {
-    "einaweb": "^2.3.0"
+    "einaweb": "file:../../einaweb/einaweb-2.3.0.tgz"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

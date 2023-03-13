@@ -1,9 +1,8 @@
-<%#einaweb:require lang.json%>
-<%#einaweb:pick 1%>
-<%#einaweb:name `${data.content.url[file]}`%>
-<%-include("head.inc", data)%>
+<%#einaweb:load lang lang.json%>
+<%#einaweb:pick lang 0%>
+<%#einaweb:name `${$data.lang.content.url[$file]}`%>
+<%-include("head.inc", { $each: $data.lang })%>
 <section class="push-top bg-pattern-2 bg-right">
   <h1 style="font-size: 8rem">Error :\</h1>
-  <h4>The page you're looking for does not exists..</h4>
   <h4>La página que estás buscando no existe..</h4>
 </section>
