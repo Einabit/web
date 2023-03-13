@@ -16,13 +16,16 @@
     <p class="txt-center"><%-data.content.index.mainSub%></p>
   </custom-highlight>
 </section>
-<% if (data.lang === "es") { %>
 <section class="bg-pattern-2 bg-right" style="margin-top: 80px">
   <video controls poster="thumb/02.png">
-     <source src="video/einabit-api.mp4" type="video/mp4">
+  <% if (data.lang === "es") { %>
+    <source src="video/einabit-api.mp4" type="video/mp4">
+  <% } %>
+  <% if (data.lang === "en") { %>
+    <source src="video/einabit-api_en.mp4" type="video/mp4">
+  <% } %>
   </video>
 </section>
-<% } %>
 <section class="vertical-space">
   <h2 class="txt-center"><%-data.content.index.codeheader%></h2>
   <script src="https://gist.github.com/k1r0s/4e909dba290778b1582895fe54109b31.js"></script>
