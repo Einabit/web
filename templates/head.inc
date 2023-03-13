@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="<%=data.lang%>">
+<html lang="<%=$each.lang%>">
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="<%=data.content.head[file].description%>">
-    <meta name="keywords" content="<%=data.content.head[file].keywords%>">
+    <meta name="description" content="<%=$each.content.head[$file].description%>">
+    <meta name="keywords" content="<%=$each.content.head[$file].keywords%>">
     <meta name="author" content="Einabit">
     <base href="https://einabit.com/" />
-    <title><%=data.content.head[file].title%></title>
+    <title><%=$each.content.head[$file].title%></title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="icon" href="img/Tuerca_Color.png">
@@ -14,37 +14,37 @@
   </head>
   <body>
     <section class="primary header dflex">
-      <a title="Einabit" href="<%=data.content.url.index%>">
+      <a title="Einabit" href="<%=$each.content.url.index%>">
         <logo>
           <img src="img/Logo_Einabit_Negativo.png" alt="Einabit Logo"/>
         </logo>
       </a>
       <div class="nav" onclick="toggleNav()">
         <div>
-          <a title="<%=data.content.menu.index.title%>" href="<%=data.content.url.index%>"><%=data.content.menu.index.value%></a>
+          <a title="<%=$each.content.menu.index.title%>" href="<%=$each.content.url.index%>"><%=$each.content.menu.index.value%></a>
         </div>
-        <% if (data.lang === "es") { %>
+        <% if ($each.lang === "es") { %>
         <div>
-          <a title="<%=data.content.menu.industry.title%>" href="<%=data.content.url.industry%>"><%=data.content.menu.industry.value%></a>
+          <a title="<%=$each.content.menu.industry.title%>" href="<%=$each.content.url.industry%>"><%=$each.content.menu.industry.value%></a>
         </div>
         <% } %>
         <div>
-          <a title="<%=data.content.menu.projects.title%>" href="<%=data.content.url.projects%>"><%=data.content.menu.projects.value%></a>
+          <a title="<%=$each.content.menu.projects.title%>" href="<%=$each.content.url.projects%>"><%=$each.content.menu.projects.value%></a>
         </div>
         <div>
-          <a title="<%=data.content.menu.tools.title%>" href="<%=data.content.url.tools%>"><%=data.content.menu.tools.value%></a>
+          <a title="<%=$each.content.menu.tools.title%>" href="<%=$each.content.url.tools%>"><%=$each.content.menu.tools.value%></a>
         </div>
         <div>
-          <a title="<%=data.content.menu.about.title%>" href="<%=data.content.url.about%>"><%=data.content.menu.about.value%></a>
+          <a title="<%=$each.content.menu.about.title%>" href="<%=$each.content.url.about%>"><%=$each.content.menu.about.value%></a>
         </div>
         <div class="menu-highlight">
-          <a href="<%=data.content.url.about%>#contact"><%=data.content.about.contactHeader%></a>
+          <a href="<%=$each.content.url.about%>#contact"><%=$each.content.about.contactHeader%></a>
         </div>
-        <% if (data.lang === "es") { %>
+        <% if ($each.lang === "es") { %>
         <div>
           <a title="English language" href="iot-integration-as-service">🇬🇧</a>
         </div>
-        <% } else if (data.lang === "en") { %>
+        <% } else if ($each.lang === "en") { %>
         <div>
           <a title="Idioma español" href="integracion-iot-como-servicio">🇪🇸</a>
         </div>

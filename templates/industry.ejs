@@ -1,7 +1,7 @@
-<%#einaweb:require lang.json%>
-<%#einaweb:pick 0%>
-<%#einaweb:name `${data.content.url[file]}`%>
-<%-include("head.inc", data)%>
+<%#einaweb:load lang lang.json%>
+<%#einaweb:pick lang 0%>
+<%#einaweb:name `${$data.lang.content.url[$file]}`%>
+<%-include("head.inc", { $each: $data.lang })%>
 <section class="push-top bg-pattern-1">
   <h1 class="txt-center">La nueva Revolución Industrial</h1>
   <p class="txt-center">Ayudamos a empresas del ámbito industrial a digitalizar su producción, identificar pérdidas, mejorar la eficiencia y por tanto, <strong>incrementar su competitividad</strong>.</p>
